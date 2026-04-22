@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge | Student Dashboard</title>
+    <meta name="description" content="SkillBridge - Convert student effort into visible, verified employability signals.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-solid fa-bridge"></i>
+                    <span>SkillBridge</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-border-all"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-map"></i>
+                            <span>Pathways</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-award"></i>
+                            <span>Credits</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-id-card"></i>
+                            <span>Portfolio</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="#" class="nav-link">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+                <div class="user-profile-mini">
+                    <img src="https://i.pravatar.cc/150?img=12" alt="Student avatar" class="avatar">
+                    <div class="user-info">
+                        <span class="user-name">Alex M.</span>
+                        <span class="user-role">Student</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Topbar -->
+            <header class="topbar">
+                <div class="search-bar">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search projects, skills, or credits...">
+                </div>
+                <div class="topbar-actions">
+                    <button class="icon-btn notification-btn">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="badge">2</span>
+                    </button>
+                    <button class="premium-btn">
+                        <i class="fa-solid fa-plus"></i> Add Evidence
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard-scroll-area">
+                <!-- Welcome Banner -->
+                <section class="welcome-banner glass-card">
+                    <div class="banner-content">
+                        <h1 class="welcome-title">Welcome back, Alex! 👋</h1>
+                        <p class="welcome-subtitle">Target Role: <strong>Frontend Developer</strong></p>
+                        <p class="welcome-text">You are 2 skills away from unlocking Mid-Level verified status.</p>
+                        <div class="banner-actions">
+                            <button class="primary-btn">View Pathway Recommendations</button>
+                        </div>
+                    </div>
+                    <div class="readiness-widget">
+                        <div class="circular-progress">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="progress-text">
+                                <span class="score">78%</span>
+                                <span class="label">Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="dashboard-grid">
+                    <!-- Left Column -->
+                    <div class="grid-left">
+                        <!-- Missing Skills / Recommended Actions -->
+                        <section class="card widget recommended-actions">
+                            <div class="card-header">
+                                <h2>Recommended Next Steps</h2>
+                                <button class="text-btn">View All</button>
+                            </div>
+                            <div class="card-body">
+                                <ul class="action-list">
+                                    <li class="action-item">
+                                        <div class="action-icon warning">
+                                            <i class="fa-brands fa-react"></i>
+                                        </div>
+                                        <div class="action-details">
+                                            <h3>Missing Skill: React Hooks</h3>
+                                            <p>Required for 85% of target roles.</p>
+                                        </div>
+                                        <button class="secondary-btn small-btn">Find Project</button>
+                                    </li>
+                                    <li class="action-item">
+                                        <div class="action-icon info">
+                                            <i class="fa-solid fa-file-contract"></i>
+                                        </div>
+                                        <div class="action-details">
+                                            <h3>Submit Proof: UI/UX Basics</h3>
+                                            <p>You mentioned completion, upload cert.</p>
+                                        </div>
+                                        <button class="secondary-btn small-btn">Upload</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <!-- Recent Activity / Credits -->
+                        <section class="card widget recent-activity">
+                            <div class="card-header">
+                                <h2>Credit Registry Status</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker verified">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>Advanced CSS Certification</h4>
+                                            <span class="meta">Verified by Meta • 2 days ago</span>
+                                            <div class="status-chip verified">Verified</div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker pending">
+                                            <i class="fa-solid fa-hourglass-half"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>JavaScript Data Structures</h4>
+                                            <span class="meta">Issuer: Coursera • Submitted yesterday</span>
+                                            <div class="status-chip pending">Pending Review</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="grid-right">
+                        <!-- Active Live Projects -->
+                        <section class="card widget active-projects">
+                            <div class="card-header">
+                                <h2>Active Live Projects</h2>
+                                <a href="#" class="text-link">Marketplace <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <div class="project-logo">
+                                            <i class="fa-solid fa-bolt"></i>
+                                        </div>
+                                        <div class="project-title-area">
+                                            <h3>Build a Marketing Dashboard</h3>
+                                            <span class="employer">TechNova Inc</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-progress">
+                                        <div class="progress-labels">
+                                            <span>Milestone 2 of 3</span>
+                                            <span>60%</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 60%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="project-footer">
+                                        <span class="due-date"><i class="fa-regular fa-clock"></i> Due in 3 days</span>
+                                        <button class="primary-btn small-btn">Workspace</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Verified E-Portfolio Snapshot -->
+                        <section class="card widget portfolio-snapshot">
+                            <div class="card-header">
+                                <h2>Portfolio Snapshot</h2>
+                                <i class="fa-solid fa-eye text-muted"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="stats-grid">
+                                    <div class="stat-box">
+                                        <span class="stat-value">12</span>
+                                        <span class="stat-label">Verified Skills</span>
+                                    </div>
+                                    <div class="stat-box">
+                                        <span class="stat-value">3</span>
+                                        <span class="stat-label">Completed Projects</span>
+                                    </div>
+                                    <div class="stat-box">
+                                        <span class="stat-value">142</span>
+                                        <span class="stat-label">Employer Views</span>
+                                    </div>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="secondary-btn full-width">Preview Public Profile</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
