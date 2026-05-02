@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getJobs } from '../data/jobUtils';
 import { getStoredSavedJobs, SAVED_JOBS_CHANGED_EVENT, toggleSavedJob } from '../data/savedJobsUtils';
@@ -22,8 +22,6 @@ const parsePostedDays = (posted) => {
 };
 
 const getSavedJobIds = () => new Set(getStoredSavedJobs().map((job) => job.jobId));
-
-const getJobFitScore = (job) => Math.min(96, 62 + job.tags.length * 6 + (job.type === 'Full time' ? 4 : 0));
 
 function JobCard({ job, saved, onToggleSaved }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,15 +59,11 @@ function JobCard({ job, saved, onToggleSaved }) {
     }
   };
 
-  const fitScore = getJobFitScore(job);
-  const leadingTags = job.tags.slice(0, 2).map((tag) => tag.label).join(' + ');
-
   return (
     <div className={`mp-card job-card ${saved ? 'job-card-saved' : ''}`}>
       <div className="mp-card-top">
-        <span className="mp-posted"><i className="fa-regular fa-clock"></i> {job.posted}</span>
+        <span className="mp-posted">{job.posted}</span>
         <div className="job-card-badges" ref={menuRef}>
-          {saved && <span className="job-saved-badge"><i className="fa-solid fa-bookmark"></i> Saved</span>}
           {job.mode && <span className="job-mode-badge">{job.mode}</span>}
           <button
             type="button"
@@ -139,22 +133,9 @@ function JobCard({ job, saved, onToggleSaved }) {
           </span>
         ))}
       </div>
-      <div className="job-card-insights">
-        <div>
-          <span>Fit score</span>
-          <strong>{fitScore}%</strong>
-        </div>
-        <div>
-          <span>Best proof</span>
-          <strong>{leadingTags}</strong>
-        </div>
-      </div>
       <div className="mp-card-actions">
         <Link to={`/jobs/${job.id}`} className="mp-btn-filled job-link-btn">
           View Details
-        </Link>
-        <Link to={`/jobs/${job.id}/apply`} className="mp-btn-outline job-link-btn">
-          Apply
         </Link>
       </div>
     </div>
@@ -189,21 +170,6 @@ function Jobs() {
   const jobTypeOptions = getUniqueValues(JOBS.map((job) => job.type));
   const experienceOptions = getUniqueValues(JOBS.map((job) => job.experience));
   const searchTerm = search.trim().toLowerCase();
-  const savedCount = savedJobIds.size;
-  const remoteFriendlyCount = JOBS.filter((job) => job.type === 'Part time' || `${job.mode}`.toLowerCase().includes('remote')).length;
-  const activeFilterCount = [
-    searchTerm,
-    classification !== ALL_FILTER,
-    company !== ALL_FILTER,
-    jobType !== ALL_FILTER,
-    experience !== ALL_FILTER,
-  ].filter(Boolean).length;
-  const jobTypeCounts = useMemo(() => {
-    return JOBS.reduce((acc, job) => ({ ...acc, [job.type]: (acc[job.type] ?? 0) + 1 }), {});
-  }, []);
-  const experienceCounts = useMemo(() => {
-    return JOBS.reduce((acc, job) => ({ ...acc, [job.experience]: (acc[job.experience] ?? 0) + 1 }), {});
-  }, []);
   const filteredJobs = JOBS.filter((job) => {
     const tags = job.tags.map((tag) => tag.label);
     const searchableText = [job.title, job.company, job.type, job.experience, job.description, ...tags].join(' ').toLowerCase();
@@ -236,64 +202,16 @@ function Jobs() {
     setSearch(searchInput);
   };
 
-  const handleClearFilters = () => {
-    setSearchInput('');
-    setSearch('');
-    setClassification(ALL_FILTER);
-    setCompany(ALL_FILTER);
-    setJobType(ALL_FILTER);
-    setExperience(ALL_FILTER);
-  };
-
   return (
     <div className="mp-page">
-      <section className="jobs-hero">
-        <div className="jobs-hero-copy">
-          <span className="dash-section-kicker">Matched opportunities</span>
-          <h1>Find roles worth applying to, then keep your best ones pinned.</h1>
-          <p>Search by company, skill, and fit. Bookmarked roles stay at the top so your shortlist behaves like a real working queue.</p>
+      <div className="mp-page-header">
+        <div>
+          <h1 className="mp-page-title">Jobs</h1>
+          <p className="mp-page-subtitle">Apply to roles that match the skills you&apos;ve built and the proof you can show.</p>
         </div>
-        <div className="jobs-hero-panel">
-          <div className="jobs-hero-stat">
-            <span>Open roles</span>
-            <strong>{JOBS.length}</strong>
-          </div>
-          <div className="jobs-hero-stat">
-            <span>Bookmarked</span>
-            <strong>{savedCount}</strong>
-          </div>
-          <div className="jobs-hero-stat">
-            <span>Remote-friendly</span>
-            <strong>{remoteFriendlyCount}</strong>
-          </div>
-        </div>
-      </section>
+      </div>
 
-      <section className="jobs-summary-grid">
-        <div className="jobs-summary-card">
-          <span className="jobs-summary-icon"><i className="fa-solid fa-layer-group"></i></span>
-          <div>
-            <strong>{filteredJobs.length}</strong>
-            <span>Visible roles</span>
-          </div>
-        </div>
-        <div className="jobs-summary-card">
-          <span className="jobs-summary-icon"><i className="fa-solid fa-building"></i></span>
-          <div>
-            <strong>{companyOptions.length}</strong>
-            <span>Hiring companies</span>
-          </div>
-        </div>
-        <div className="jobs-summary-card">
-          <span className="jobs-summary-icon"><i className="fa-solid fa-bookmark"></i></span>
-          <div>
-            <strong>{savedCount}</strong>
-            <span>Priority bookmarks</span>
-          </div>
-        </div>
-      </section>
-
-      <form className="mp-filter-bar jobs-filter-bar" onSubmit={handleSearchSubmit}>
+      <form className="mp-filter-bar" onSubmit={handleSearchSubmit}>
         <div className="mp-search-filter">
           <i className="fa-solid fa-search"></i>
           <input
@@ -328,10 +246,7 @@ function Jobs() {
           </select>
           <i className="fa-solid fa-chevron-down"></i>
         </div>
-        <button className="mp-find-btn" type="submit"><i className="fa-solid fa-magnifying-glass"></i> Find Jobs</button>
-        {activeFilterCount > 0 && (
-          <button className="jobs-clear-btn" type="button" onClick={handleClearFilters}>Clear</button>
-        )}
+        <button className="mp-find-btn" type="submit">Find Jobs</button>
         <div className="mp-view-toggles">
           <button
             className={`mp-view-btn ${viewMode === 'grid' ? 'active' : ''}`}
@@ -349,14 +264,6 @@ function Jobs() {
           </button>
         </div>
       </form>
-
-      <div className="jobs-results-toolbar">
-        <div>
-          <span className="dash-section-kicker">Results</span>
-          <h2>{filteredJobs.length} roles matched</h2>
-        </div>
-        <span className="jobs-active-filter-count">{activeFilterCount} active filters</span>
-      </div>
 
       <div className="mp-content-layout">
         <aside className="mp-sidebar-filter">
@@ -382,12 +289,12 @@ function Jobs() {
             <h4>Job Type</h4>
             <label className="mp-radio-label">
               <input type="radio" name="type" value={ALL_FILTER} checked={jobType === ALL_FILTER} onChange={() => setJobType(ALL_FILTER)} />
-              <span>All Types <strong>{JOBS.length}</strong></span>
+              <span>All Types</span>
             </label>
             {jobTypeOptions.map((option) => (
               <label className="mp-radio-label" key={option}>
                 <input type="radio" name="type" value={option} checked={jobType === option} onChange={() => setJobType(option)} />
-                <span>{option} <strong>{jobTypeCounts[option] ?? 0}</strong></span>
+                <span>{option}</span>
               </label>
             ))}
           </div>
@@ -395,12 +302,12 @@ function Jobs() {
             <h4>Experience</h4>
             <label className="mp-radio-label">
               <input type="radio" name="exp" value={ALL_FILTER} checked={experience === ALL_FILTER} onChange={() => setExperience(ALL_FILTER)} />
-              <span>All Experience <strong>{JOBS.length}</strong></span>
+              <span>All Experience</span>
             </label>
             {experienceOptions.map((option) => (
               <label className="mp-radio-label" key={option}>
                 <input type="radio" name="exp" value={option} checked={experience === option} onChange={() => setExperience(option)} />
-                <span>{option} <strong>{experienceCounts[option] ?? 0}</strong></span>
+                <span>{option}</span>
               </label>
             ))}
           </div>
