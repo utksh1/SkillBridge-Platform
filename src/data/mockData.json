@@ -1,4 +1,35 @@
 {
+  "user": {
+    "name": "Alex Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "+91 98765 43210",
+    "location": "Mumbai, Maharashtra",
+    "portfolioUrl": "https://alexmorgan.design",
+    "resumeUrl": "https://drive.google.com/file/d/alex-resume.pdf",
+    "headline": "Frontend Developer • UI/UX Enthusiast",
+    "education": "University of Mumbai",
+    "avatar": "https://i.pravatar.cc/150?img=12"
+  },
+  "appliedJobs": [
+    {
+      "id": 101,
+      "jobId": 1,
+      "title": "Product Designer",
+      "company": "Figma",
+      "companyColor": "#F24E1E",
+      "status": "Interview",
+      "appliedDate": "2026-04-28"
+    },
+    {
+      "id": 102,
+      "jobId": 14,
+      "title": "Frontend Developer",
+      "company": "Meta",
+      "companyColor": "#0668E1",
+      "status": "Applied",
+      "appliedDate": "2026-04-30"
+    }
+  ],
   "courses": [
     {
       "id": 1,
@@ -868,7 +899,21 @@
       "pay": "$20/hours",
       "experience": "2-4 years",
       "posted": "1 day ago",
+      "location": "San Francisco, CA",
+      "mode": "Hybrid",
       "description": "Conduct user research and analysis to identify pain points and opportunities for improving the product experience.",
+      "responsibilities": [
+        "Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.",
+        "Facilitate the client's product vision by researching, conceiving, sketching, prototyping and user-testing experiences for digital products.",
+        "Design and deliver wireframes, user stories, user journeys, and mockups optimized for a wide range of devices and interfaces.",
+        "Identify design problems and devise elegant solutions."
+      ],
+      "requirements": [
+        "Three or more years of UX design experience. Preference will be given to candidates who have experience designing complex solutions for complete digital environments.",
+        "Expertise in standard UX software such as Figma, Sketch, Framer, and the like is a must.",
+        "Ability to work with clients to understand detailed requirements and design complete user experiences that meet client needs and vision.",
+        "A solid grasp of user-centered design (UCD), planning and conducting user research, user testing, A/B testing, rapid prototyping, heuristic analysis, usability and accessibility concerns."
+      ],
       "tags": [
         {
           "label": "Product Design",
@@ -894,7 +939,21 @@
       "pay": "$80/hours",
       "experience": "4 years",
       "posted": "5 days ago",
+      "location": "Stockholm, Sweden",
+      "mode": "Remote",
       "description": "Build scalable APIs and microservices for music streaming platform.",
+      "responsibilities": [
+        "Design, develop, and deploy scalable backend services.",
+        "Collaborate with cross-functional teams to define, design, and ship new features.",
+        "Optimize services for performance and scalability.",
+        "Maintain high standards of code quality and unit test coverage."
+      ],
+      "requirements": [
+        "Strong experience with Node.js, Go, or Java.",
+        "Deep understanding of microservices architecture and API design.",
+        "Experience with SQL and NoSQL databases.",
+        "Familiarity with cloud platforms (AWS, GCP, or Azure)."
+      ],
       "tags": [
         {
           "label": "Software Engineer",
@@ -924,6 +983,8 @@
       "pay": "$20/hours",
       "experience": "2-4 years",
       "posted": "1 day ago",
+      "location": "Los Gatos, CA",
+      "mode": "On-site",
       "description": "Build responsive and engaging user interfaces for streaming platform.",
       "tags": [
         {
@@ -954,6 +1015,8 @@
       "pay": "$20/hours",
       "experience": "2-4 years",
       "posted": "1 day ago",
+      "location": "San Jose, CA",
+      "mode": "Hybrid",
       "description": "Design intuitive user experiences for creative professionals.",
       "tags": [
         {

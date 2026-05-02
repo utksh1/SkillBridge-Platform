@@ -1,14 +1,25 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { hasCompletedOnboarding, setAuthenticated } from '../data/profileUtils';
 
 function Login() {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [resetMessage, setResetMessage] = useState('');
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Simulate login and redirect to onboarding first
-    navigate('/onboarding');
+
+    // Mock user data validation
+    if (email === 'alex@skillbridge.edu' && password === 'password123') {
+      setAuthenticated(true);
+      navigate(hasCompletedOnboarding() ? '/' : '/onboarding');
+    } else {
+      setError('Invalid email or password. Use alex@skillbridge.edu / password123');
+    }
   };
 
   return (
@@ -25,11 +36,29 @@ function Login() {
             Don't have a SkillBridge account yet? <Link to="/signup" className="link-blue">Sign up now</Link>
           </p>
 
+          {error && (
+            <div className="login-error-box">
+              <i className="fa-solid fa-circle-exclamation"></i> {error}
+            </div>
+          )}
+
+          {resetMessage && (
+            <div className="login-info-box">
+              <i className="fa-solid fa-circle-info"></i> {resetMessage}
+            </div>
+          )}
+
           <form onSubmit={handleLogin} className="login-form">
             <div className="input-group">
               <label>Email</label>
               <div className="input-wrapper">
-                <input type="email" placeholder="student@university.edu" required />
+                <input
+                  type="email"
+                  placeholder="alex@skillbridge.edu"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
                 <i className="fa-regular fa-envelope input-icon"></i>
               </div>
             </div>
@@ -37,8 +66,14 @@ function Login() {
             <div className="input-group">
               <label>Password</label>
               <div className="input-wrapper">
-                <input type={showPassword ? "text" : "password"} placeholder="••••••••••••" required />
-                <i 
+                <input
+                  type={showPassword ? "text" : "password"}
+                  placeholder="••••••••••••"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+                <i
                   className={`fa-regular ${showPassword ? 'fa-eye-slash' : 'fa-eye'} input-icon`}
                   onClick={() => setShowPassword(!showPassword)}
                   style={{cursor: 'pointer'}}
@@ -46,12 +81,25 @@ function Login() {
               </div>
             </div>
 
+            <div className="mock-creds-hint">
+              <i className="fa-solid fa-circle-info"></i> Mock: <strong>alex@skillbridge.edu</strong> / <strong>password123</strong>
+            </div>
+
             <div className="login-actions row-between">
               <label className="checkbox-label">
                 <input type="checkbox" />
                 <span>Remember me</span>
               </label>
-              <a href="#" className="link-blue forgot-link">Forgot password?</a>
+              <button
+                type="button"
+                className="link-blue forgot-link forgot-link-btn"
+                onClick={() => {
+                  setError('');
+                  setResetMessage('Password reset instructions have been queued for the mock account.');
+                }}
+              >
+                Forgot password?
+              </button>
             </div>
 
             <button type="submit" className="login-btn">Log in</button>

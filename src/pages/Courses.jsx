@@ -1,7 +1,15 @@
-import data from '../data/mockData.json';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import {
+  getCourseLevel,
+  getCourseTopic,
+  getCourses,
+  getRoleCourseScore,
+  getStoredEnrolledCourseIds,
+} from '../data/courseUtils';
+import { getStoredProfile, getTargetRoleMeta } from '../data/profileUtils';
 
-const COURSES = data.courses;
+const COURSES = getCourses();
 const ALL_FILTER = 'all';
 
 const BADGE_COLORS = {
@@ -13,31 +21,7 @@ const BADGE_COLORS = {
 
 const getUniqueValues = (items) => [...new Set(items)].sort((a, b) => a.localeCompare(b));
 
-const getCourseTopic = (course) => {
-  const title = course.title.toLowerCase();
-
-  if (/data|python|sql|machine learning|analytics|power bi|tableau|statistics/.test(title)) return 'Data';
-  if (/design|ux|ui|figma|photoshop|graphic/.test(title)) return 'Design';
-  if (/react native|ios|swift|android|mobile/.test(title)) return 'Mobile';
-  if (/aws|cloud|docker|kubernetes|devops/.test(title)) return 'Cloud';
-  if (/security|cyber/.test(title)) return 'Security';
-  if (/business|product|management|agile|leadership/.test(title)) return 'Business';
-  if (/marketing|seo|social/.test(title)) return 'Marketing';
-  if (/javascript|react|node|html|css|api|web|flask|django|java|blockchain/.test(title)) return 'Development';
-
-  return 'General';
-};
-
-const getCourseLevel = (course) => {
-  const title = course.title.toLowerCase();
-
-  if (/advanced|masterclass|professional|architect|specialization|deep dive|a-z/.test(title)) return 'Advanced';
-  if (/basics|fundamentals|zero|beginner|intro/.test(title)) return 'Beginner';
-
-  return 'Intermediate';
-};
-
-function CourseCard({ course }) {
+function CourseCard({ course, enrolled }) {
   return (
     <div className="course-card">
       <div className="course-card-media">
@@ -71,7 +55,9 @@ function CourseCard({ course }) {
         <h3 className="course-card-title">{course.title}</h3>
         <div className="course-card-footer">
           <span className="course-price">{course.price}</span>
-          <button className="course-enroll-btn">Enroll Now</button>
+          <Link to={`/courses/${course.id}`} className="course-enroll-btn">
+            {enrolled ? 'Open Course' : 'View Details'}
+          </Link>
         </div>
       </div>
     </div>
@@ -79,16 +65,22 @@ function CourseCard({ course }) {
 }
 
 function Courses() {
+  const profile = getStoredProfile();
+  const targetRole = getTargetRoleMeta(profile.targetRole);
   const [activeTab, setActiveTab] = useState('browse');
   const [search, setSearch] = useState('');
   const [topic, setTopic] = useState(ALL_FILTER);
   const [category, setCategory] = useState(ALL_FILTER);
   const [level, setLevel] = useState(ALL_FILTER);
+  const [enrolledCourseIds] = useState(() => getStoredEnrolledCourseIds());
 
   const topicOptions = getUniqueValues(COURSES.map(getCourseTopic));
   const categoryOptions = getUniqueValues(COURSES.flatMap((course) => course.badges.length ? course.badges : ['Standard']));
   const levelOptions = getUniqueValues(COURSES.map(getCourseLevel));
   const searchTerm = search.trim().toLowerCase();
+  const getRoleScore = (course) => {
+    return getRoleCourseScore(course, profile.targetRole);
+  };
   const visibleCourses = COURSES.filter((course) => {
     const courseTopic = getCourseTopic(course);
     const courseLevel = getCourseLevel(course);
@@ -96,24 +88,26 @@ function Courses() {
     const text = [course.title, course.instructor, courseTopic, courseLevel, ...courseCategories].join(' ').toLowerCase();
 
     return (
-      (activeTab === 'browse' || course.rating >= 4.5 || courseCategories.includes('Free')) &&
+      (activeTab === 'browse' || enrolledCourseIds.includes(course.id)) &&
       (!searchTerm || text.includes(searchTerm)) &&
       (topic === ALL_FILTER || courseTopic === topic) &&
       (category === ALL_FILTER || courseCategories.includes(category)) &&
       (level === ALL_FILTER || courseLevel === level)
     );
-  });
+  }).sort((a, b) => getRoleScore(b) - getRoleScore(a) || b.rating - a.rating);
+
+  const recommendedCourses = visibleCourses.filter((course) => getRoleScore(course) > 0).slice(0, 3);
 
   return (
     <div className="mp-page">
       <div className="mp-page-header" style={{ marginBottom: '8px' }}>
         <div>
-          <h1 className="mp-page-title">Courses</h1>
-          <p className="mp-page-subtitle">Discover and Learn new vocational skills</p>
+          <h1 className="mp-page-title">Learn</h1>
+          <p className="mp-page-subtitle">Build the skills your target {targetRole.shortLabel.toLowerCase()} role needs before you turn them into proof.</p>
         </div>
         <div className="course-tabs">
-          <button className={`course-tab ${activeTab === 'browse' ? 'active' : ''}`} onClick={() => setActiveTab('browse')}>Browse Courses</button>
-          <button className={`course-tab ${activeTab === 'my' ? 'active' : ''}`} onClick={() => setActiveTab('my')}>My Courses</button>
+          <button className={`course-tab ${activeTab === 'browse' ? 'active' : ''}`} onClick={() => setActiveTab('browse')}>Explore Skills</button>
+          <button className={`course-tab ${activeTab === 'my' ? 'active' : ''}`} onClick={() => setActiveTab('my')}>My Learning</button>
         </div>
       </div>
 
@@ -122,7 +116,7 @@ function Courses() {
           <i className="fa-solid fa-search"></i>
           <input
             type="text"
-            placeholder="Search Courses"
+            placeholder="Search skills and courses"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
           />
@@ -159,12 +153,46 @@ function Courses() {
         </div>
       </div>
 
+      {recommendedCourses.length > 0 && (
+        <section className="role-course-panel">
+          <div className="dash-section-top">
+            <div>
+              <span className="dash-section-kicker">Role matched</span>
+              <h2>Best next courses for {targetRole.label}</h2>
+            </div>
+          </div>
+          <div className="role-course-chip-row">
+            {recommendedCourses.map((course) => (
+              <div className="role-course-chip" key={course.id}>
+                <strong>{course.title}</strong>
+                <span>{getCourseTopic(course)} • {getCourseLevel(course)}</span>
+                <Link to={`/courses/${course.id}`} className="link-blue">View details</Link>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       <div className="course-grid">
         {visibleCourses.map((course) => (
-          <CourseCard key={course.id} course={course} />
+          <CourseCard
+            key={course.id}
+            course={course}
+            enrolled={enrolledCourseIds.includes(course.id)}
+          />
         ))}
         {visibleCourses.length === 0 && (
-          <div className="mp-empty-state">No matching courses found.</div>
+          <div className="rich-empty-state">
+            <h3>{activeTab === 'my' ? 'No enrolled courses yet' : 'No matching courses found'}</h3>
+            <p>
+              {activeTab === 'my'
+                ? 'Enroll in a course from Explore Skills and it will appear here for quick access.'
+                : 'Try clearing one filter or searching for a broader skill area.'}
+            </p>
+            <button type="button" className="mp-btn-filled job-link-btn" onClick={() => setActiveTab('browse')}>
+              Explore Skills
+            </button>
+          </div>
         )}
       </div>
     </div>
