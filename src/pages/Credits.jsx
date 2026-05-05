@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { createProofSubmission, getStoredCredits } from '../data/creditsUtils';
 
 const STATUS_MAP = {
@@ -17,7 +17,7 @@ const emptyProofForm = {
   issuerColor: '#2563EB',
 };
 
-function CreditCard({ credit, onViewDetails }) {
+function CreditCard({ credit, onViewDetails, onViewProof }) {
   const status = STATUS_MAP[credit.status] ?? STATUS_MAP.pending;
 
   return (
@@ -48,14 +48,9 @@ function CreditCard({ credit, onViewDetails }) {
       </div>
       {credit.notes && <p className="mp-description">{credit.notes}</p>}
       <div className="mp-card-actions">
-        <a
-          href={credit.proofUrl || '#'}
-          className="mp-btn-outline job-link-btn"
-          target={credit.proofUrl ? '_blank' : undefined}
-          rel={credit.proofUrl ? 'noreferrer' : undefined}
-        >
+        <button type="button" className="mp-btn-outline job-link-btn" onClick={() => onViewProof(credit)}>
           View Proof
-        </a>
+        </button>
         <button type="button" className="mp-btn-filled" onClick={() => onViewDetails(credit)}>Details</button>
       </div>
     </div>
@@ -69,12 +64,19 @@ function Credits() {
   const [formData, setFormData] = useState(emptyProofForm);
   const [submitState, setSubmitState] = useState('idle');
   const [selectedCredit, setSelectedCredit] = useState(null);
+  const proofDetailRef = useRef(null);
 
   const filtered = useMemo(() => (
     filter === 'all'
       ? credits
       : credits.filter((credit) => credit.status === filter)
   ), [credits, filter]);
+
+  useEffect(() => {
+    if (selectedCredit) {
+      proofDetailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedCredit]);
 
   const handleChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -87,6 +89,15 @@ function Credits() {
     setFormData(emptyProofForm);
     setSubmitState('submitted');
     setShowForm(false);
+  };
+
+  const handleViewProof = (credit) => {
+    if (credit.proofUrl) {
+      window.open(credit.proofUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    setSelectedCredit(credit);
   };
 
   return (
@@ -154,7 +165,7 @@ function Credits() {
       </div>
 
       {selectedCredit && (
-        <section className="mp-card proof-detail-panel">
+        <section className="mp-card proof-detail-panel" ref={proofDetailRef}>
           <div className="dash-section-top">
             <div>
               <span className="dash-section-kicker">Proof details</span>
@@ -196,7 +207,7 @@ function Credits() {
 
       <div className="mp-card-grid mp-card-grid-full">
         {filtered.map((credit) => (
-          <CreditCard key={credit.id} credit={credit} onViewDetails={setSelectedCredit} />
+          <CreditCard key={credit.id} credit={credit} onViewDetails={setSelectedCredit} onViewProof={handleViewProof} />
         ))}
         {filtered.length === 0 && (
           <div className="rich-empty-state">

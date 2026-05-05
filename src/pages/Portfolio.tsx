@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { createProofSubmission, getStoredCredits } from '../data/creditsUtils';
 import { getPortfolioStats, getStoredPortfolio, saveStoredPortfolio } from '../data/portfolioUtils';
 import { getStoredProfile, getTargetRoleMeta, saveStoredProfile } from '../data/profileUtils';
@@ -37,7 +37,7 @@ const emptyCaseStudy = {
   link: 'https://alexmorgan.design/work/new-case-study',
 };
 
-function ProofCard({ credit, onViewDetails }) {
+function ProofCard({ credit, onViewDetails, onViewProof }) {
   const status = STATUS_MAP[credit.status] ?? STATUS_MAP.pending;
 
   return (
@@ -68,14 +68,9 @@ function ProofCard({ credit, onViewDetails }) {
       </div>
       {credit.notes && <p className="mp-description">{credit.notes}</p>}
       <div className="mp-card-actions">
-        <a
-          href={credit.proofUrl || '#'}
-          className="mp-btn-outline job-link-btn"
-          target={credit.proofUrl ? '_blank' : undefined}
-          rel={credit.proofUrl ? 'noreferrer' : undefined}
-        >
+        <button type="button" className="mp-btn-outline job-link-btn" onClick={() => onViewProof(credit)}>
           View Proof
-        </a>
+        </button>
         <button type="button" className="mp-btn-filled" onClick={() => onViewDetails(credit)}>Details</button>
       </div>
     </div>
@@ -93,6 +88,7 @@ function Portfolio() {
   const [showProofForm, setShowProofForm] = useState(false);
   const [proofFormData, setProofFormData] = useState(emptyProofForm);
   const [selectedCredit, setSelectedCredit] = useState(null);
+  const proofDetailRef = useRef(null);
 
   const targetRole = getTargetRoleMeta(profile.targetRole);
   const stats = useMemo(() => getPortfolioStats(portfolio), [portfolio]);
@@ -108,6 +104,12 @@ function Portfolio() {
       ? credits
       : credits.filter((credit) => credit.status === proofFilter)
   ), [credits, proofFilter]);
+
+  useEffect(() => {
+    if (selectedCredit) {
+      proofDetailRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedCredit]);
 
   const updateProfile = (field, value) => {
     setSaveState('Unsaved');
@@ -171,6 +173,15 @@ function Portfolio() {
     setShowProofForm(false);
     setSelectedCredit(nextCredit);
     setToastMessage('Proof submitted and added to your portfolio workspace.');
+  };
+
+  const handleViewProof = (credit) => {
+    if (credit.proofUrl) {
+      window.open(credit.proofUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    setSelectedCredit(credit);
   };
 
   const savePortfolio = () => {
@@ -509,7 +520,7 @@ function Portfolio() {
         </div>
 
         {selectedCredit && (
-          <section className="proof-detail-panel inline-proof-detail">
+          <section className="proof-detail-panel inline-proof-detail" ref={proofDetailRef}>
             <div className="dash-section-top">
               <div>
                 <span className="dash-section-kicker">Proof details</span>
@@ -551,7 +562,7 @@ function Portfolio() {
 
         <div className="mp-card-grid mp-card-grid-full proof-grid">
           {filteredCredits.map((credit) => (
-            <ProofCard key={credit.id} credit={credit} onViewDetails={setSelectedCredit} />
+            <ProofCard key={credit.id} credit={credit} onViewDetails={setSelectedCredit} onViewProof={handleViewProof} />
           ))}
           {filteredCredits.length === 0 && (
             <div className="rich-empty-state">
