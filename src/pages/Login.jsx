@@ -28,12 +28,12 @@ function Login() {
       <div className="login-left">
         <div className="login-form-container">
           <div className="login-logo">
-            <i className="fa-solid fa-bridge"></i> SkillBridge <span className="logo-subtext">| student portal</span>
+            <i className="fa-solid fa-bridge"></i> SkillBridge
           </div>
           
-          <h1 className="login-title">Log in to SkillBridge</h1>
+          <h1 className="login-title">Log In</h1>
           <p className="login-subtitle">
-            Don't have a SkillBridge account yet? <Link to="/signup" className="link-blue">Sign up now</Link>
+            Don't have an account? <Link to="/signup" className="link-blue">Sign up now</Link>
           </p>
 
           {error && (
@@ -114,7 +114,7 @@ function Login() {
       {/* Right Side: Illustration */}
       <div className="login-right">
         <div className="illustration-wrapper">
-          <img src="/login_illustration.png" alt="Student with laptop mapping skills to careers" className="hero-illustration" />
+          <img src="/Untitled design.svg" alt="Illustration" className="hero-illustration" />
         </div>
       </div>
     </div>

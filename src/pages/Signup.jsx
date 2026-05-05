@@ -38,9 +38,9 @@ function Signup() {
             <i className="fa-solid fa-bridge"></i> SkillBridge
           </div>
           
-          <h1 className="login-title">Create an account</h1>
+          <h1 className="login-title">Sign Up</h1>
           <p className="login-subtitle">
-            Already have a SkillBridge account? <Link to="/login" className="link-blue">Log in now</Link>
+            Already have an account? <Link to="/login" className="link-blue">Log in now</Link>
           </p>
 
           {error && (
@@ -135,7 +135,7 @@ function Signup() {
       {/* Right Side: Same Illustration */}
       <div className="login-right">
         <div className="illustration-wrapper">
-          <img src="/login_illustration.png" alt="Student with laptop mapping skills to careers" className="hero-illustration" />
+          <img src="/Untitled design.svg" alt="Illustration" className="hero-illustration" />
         </div>
       </div>
     </div>
