@@ -1,0 +1,4870 @@
+{
+  "user": {
+    "name": "Alex Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "+91 98765 43210",
+    "location": "Mumbai, Maharashtra",
+    "portfolioUrl": "https://alexmorgan.design",
+    "resumeUrl": "https://drive.google.com/file/d/alex-resume.pdf",
+    "headline": "Frontend Developer • UI/UX Enthusiast",
+    "education": "University of Mumbai",
+    "avatar": "https://i.pravatar.cc/150?img=12"
+  },
+  "appliedJobs": [
+    {
+      "id": 101,
+      "jobId": 1,
+      "title": "Product Designer",
+      "company": "Figma",
+      "companyColor": "#F24E1E",
+      "status": "Interview",
+      "appliedDate": "2026-04-28"
+    },
+    {
+      "id": 102,
+      "jobId": 14,
+      "title": "Frontend Developer",
+      "company": "Meta",
+      "companyColor": "#0668E1",
+      "status": "Applied",
+      "appliedDate": "2026-04-30"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Get To Know About The Business Building Strategy With Experts",
+      "instructor": "Leslie Alexander",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "rating": 3.9,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ultimate Adobe Photoshop CC Masterclass Basics To Advanced",
+      "instructor": "Guy Hawkins",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "rating": 3.9,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Microsoft Power BI Data Analyst Professional Certificate",
+      "instructor": "Jane Cooper",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "rating": 3.9,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Advanced Data Analytics Course",
+      "instructor": "Robert Fox",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "rating": 3.9,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Complete Web Development Bootcamp From Zero To Hero",
+      "instructor": "Jenny Jones",
+      "avatar": "https://i.pravatar.cc/150?img=32",
+      "rating": 4.2,
+      "price": "$150",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Design Masterclass With Figma And Real Projects",
+      "instructor": "Brooklyn Simmons",
+      "avatar": "https://i.pravatar.cc/150?img=26",
+      "rating": 4.5,
+      "price": "$99",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Python For Data Science And Machine Learning Bootcamp",
+      "instructor": "Cody Fisher",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "rating": 4,
+      "price": "$130",
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Agile Project Management Professional Certification",
+      "instructor": "Savannah Nguyen",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "rating": 3.8,
+      "price": "$110",
+      "image": "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "React Native - Build iOS & Android Apps with React Native",
+      "instructor": "Andrew Mead",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "rating": 4.6,
+      "price": "$180",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "AWS Certified Solutions Architect - Associate 2026",
+      "instructor": "Stephane Maarek",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "rating": 4.7,
+      "price": "$199",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Complete Python Bootcamp: From Zero to Hero",
+      "instructor": "Jose Portilla",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "rating": 4.5,
+      "price": "$95",
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "UI/UX Design: Create a User Experience Course",
+      "instructor": "Daniel Walter Scott",
+      "avatar": "https://i.pravatar.cc/150?img=18",
+      "rating": 4.4,
+      "price": "$85",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Machine Learning A-Z: Hands-On Python & R In Data Science",
+      "instructor": "Kirill Eremenko",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "rating": 4.3,
+      "price": "$165",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Google UX Design Professional Certificate",
+      "instructor": "Google Career Certificates",
+      "avatar": "https://i.pravatar.cc/150?img=21",
+      "rating": 4.5,
+      "price": "$0",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=280&fit=crop",
+      "badges": [
+        "Free",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Node.js: The Complete Guide to Build RESTful APIs",
+      "instructor": "Academind",
+      "avatar": "https://i.pravatar.cc/150?img=23",
+      "rating": 4.6,
+      "price": "$140",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Docker & Kubernetes: The Practical Guide",
+      "instructor": "Maximilian Schwarzmüller",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "rating": 4.5,
+      "price": "$145",
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Hot"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "HTML & CSS: Build Modern, Responsive Websites",
+      "instructor": "Colt Steele",
+      "avatar": "https://i.pravatar.cc/150?img=25",
+      "rating": 4.4,
+      "price": "$75",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "iOS & Swift - The Complete iOS App Development Bootcamp",
+      "instructor": "Angela Yu",
+      "avatar": "https://i.pravatar.cc/150?img=26",
+      "rating": 4.7,
+      "price": "$195",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Cybersecurity Specialization",
+      "instructor": "IBM",
+      "avatar": "https://i.pravatar.cc/150?img=27",
+      "rating": 4.2,
+      "price": "$0",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=280&fit=crop",
+      "badges": [
+        "Free"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Product Management: Becoming a Product Manager",
+      "instructor": "Cole Mercer",
+      "avatar": "https://i.pravatar.cc/150?img=28",
+      "rating": 4.3,
+      "price": "$125",
+      "image": "https://images.unsplash.com/photo-1552581234-26160f608093?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "JavaScript: The Advanced Concepts",
+      "instructor": "Andrei Neagoie",
+      "avatar": "https://i.pravatar.cc/150?img=29",
+      "rating": 4.5,
+      "price": "$115",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Data Structures and Algorithms: Deep Dive Using Python",
+      "instructor": "John Baugh",
+      "avatar": "https://i.pravatar.cc/150?img=30",
+      "rating": 4.4,
+      "price": "$89",
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Leadership and Management Specialization",
+      "instructor": "University of Michigan",
+      "avatar": "https://i.pravatar.cc/150?img=31",
+      "rating": 4.6,
+      "price": "$0",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=280&fit=crop",
+      "badges": [
+        "Free",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Graphic Design Masterclass",
+      "instructor": "Lindsay Marsh",
+      "avatar": "https://i.pravatar.cc/150?img=32",
+      "rating": 4.3,
+      "price": "$105",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Blockchain A-Z: Learn How To Build Your First Blockchain",
+      "instructor": "Nicholas Kirsch",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "rating": 4.2,
+      "price": "$135",
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "SQL for Data Science - SQL Masterclass",
+      "instructor": "Jose Portilla",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "rating": 4.4,
+      "price": "$85",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Digital Marketing Masterclass - 23 Courses in 1",
+      "instructor": "Sorin Constantin",
+      "avatar": "https://i.pravatar.cc/150?img=34",
+      "rating": 4.1,
+      "price": "$175",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Vue.js 3 - The Complete Guide",
+      "instructor": "Maximilian Schwarzmüller",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "rating": 4.6,
+      "price": "$150",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Software Architecture & Design - Microservices to Monoliths",
+      "instructor": "Michael Pogorsky",
+      "avatar": "https://i.pravatar.cc/150?img=35",
+      "rating": 4.1,
+      "price": "$110",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Technical Writing: How to Write Software Documentation",
+      "instructor": "Jodi Kraller",
+      "avatar": "https://i.pravatar.cc/150?img=36",
+      "rating": 4,
+      "price": "$65",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=280&fit=crop",
+      "badges": []
+    },
+    {
+      "id": 31,
+      "title": "TensorFlow Developer Certificate Exam Prep",
+      "instructor": "Daniel Bourke",
+      "avatar": "https://i.pravatar.cc/150?img=37",
+      "rating": 4.5,
+      "price": "$125",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Git & GitHub - The Practical Guide",
+      "instructor": "Maximilian Schwarzmüller",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "rating": 4.5,
+      "price": "$80",
+      "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Business Analysis & Process Modeling",
+      "instructor": "Jeremy Aschenbrenner",
+      "avatar": "https://i.pravatar.cc/150?img=38",
+      "rating": 4.2,
+      "price": "$95",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "TypeScript: The Complete Developer Course",
+      "instructor": "Stephen Grider",
+      "avatar": "https://i.pravatar.cc/150?img=39",
+      "rating": 4.4,
+      "price": "$130",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Figma UI/UX Design Essential Training",
+      "instructor": " Caleb Kingston",
+      "avatar": "https://i.pravatar.cc/150?img=40",
+      "rating": 4.3,
+      "price": "$70",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Mobile App Development with React Native",
+      "instructor": "Stephen Grider",
+      "avatar": "https://i.pravatar.cc/150?img=39",
+      "rating": 4.4,
+      "price": "$155",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Ethical Hacking & Penetration Testing Bootcamp",
+      "instructor": "Zaid Sabih",
+      "avatar": "https://i.pravatar.cc/150?img=41",
+      "rating": 4.5,
+      "price": "$180",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Google Cloud Professional Data Engineer Certification",
+      "instructor": "Google Cloud",
+      "avatar": "https://i.pravatar.cc/150?img=42",
+      "rating": 4.3,
+      "price": "$175",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Content Marketing & Strategy: Create Compelling Content",
+      "instructor": "Sally Miller",
+      "avatar": "https://i.pravatar.cc/150?img=43",
+      "rating": 4,
+      "price": "$90",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=280&fit=crop",
+      "badges": []
+    },
+    {
+      "id": 40,
+      "title": "Angular - The Complete Guide",
+      "instructor": "Maximilian Schwarzmüller",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "rating": 4.6,
+      "price": "$160",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Salesforce Administrator: The Complete Guide",
+      "instructor": "Francisco Rios",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "rating": 4.2,
+      "price": "$115",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "ChatGPT Prompt Engineering for Developers",
+      "instructor": "DeepLearning.AI",
+      "avatar": "https://i.pravatar.cc/150?img=45",
+      "rating": 4.7,
+      "price": "$0",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=280&fit=crop",
+      "badges": [
+        "Free",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Selenium WebDriver with Java - Complete Framework Course",
+      "instructor": "Rahul Shetty",
+      "avatar": "https://i.pravatar.cc/150?img=46",
+      "rating": 4.3,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "PMP Certification Exam Prep Course",
+      "instructor": "Andrew Ramdayal",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "rating": 4.5,
+      "price": "$185",
+      "image": "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Kubernetes for Developers: Hands-on",
+      "instructor": "Richard Chesterwood",
+      "avatar": "https://i.pravatar.cc/150?img=48",
+      "rating": 4.4,
+      "price": "$135",
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Illustrator CC MasterClass - Beginners to Advanced",
+      "instructor": "Martin Perhiniak",
+      "avatar": "https://i.pravatar.cc/150?img=49",
+      "rating": 4.4,
+      "price": "$105",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Business Intelligence with Tableau",
+      "instructor": "Maven Analytics",
+      "avatar": "https://i.pravatar.cc/150?img=50",
+      "rating": 4.5,
+      "price": "$130",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "React.js: Building Interactive UIs",
+      "instructor": "Meta Staff",
+      "avatar": "https://i.pravatar.cc/150?img=51",
+      "rating": 4.2,
+      "price": "$0",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Free"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "C#/.NET - The Complete Guide",
+      "instructor": "Dmitri Nesteruk",
+      "avatar": "https://i.pravatar.cc/150?img=52",
+      "rating": 4.3,
+      "price": "$140",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Video Editing with Adobe Premiere Pro",
+      "instructor": "Phil Ebiner",
+      "avatar": "https://i.pravatar.cc/150?img=53",
+      "rating": 4.4,
+      "price": "$115",
+      "image": "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Excel for Business Analysts",
+      "instructor": "Maven Analytics",
+      "avatar": "https://i.pravatar.cc/150?img=50",
+      "rating": 4.3,
+      "price": "$95",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Go: The Complete Developer Guide",
+      "instructor": "Andrei Neagoie",
+      "avatar": "https://i.pravatar.cc/150?img=29",
+      "rating": 4.5,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Hot"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "SEO - Complete Search Engine Optimization",
+      "instructor": "Yoast SEO Academy",
+      "avatar": "https://i.pravatar.cc/150?img=54",
+      "rating": 4.1,
+      "price": "$85",
+      "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Rust Programming Language - Complete Guide",
+      "instructor": "Jayson Lennon",
+      "avatar": "https://i.pravatar.cc/150?img=55",
+      "rating": 4.4,
+      "price": "$125",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Data Visualization with D3.js",
+      "instructor": "Curran Kelleher",
+      "avatar": "https://i.pravatar.cc/150?img=56",
+      "rating": 4.2,
+      "price": "$105",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Technical Interview: Data Structures & Algorithms",
+      "instructor": "Hussein Nasser",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "rating": 4.6,
+      "price": "$140",
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Copywriting: Write to Convert Readers into Buyers",
+      "instructor": "Stewart Norrie",
+      "avatar": "https://i.pravatar.cc/150?img=58",
+      "rating": 4,
+      "price": "$75",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=280&fit=crop",
+      "badges": []
+    },
+    {
+      "id": 58,
+      "title": "Kotlin Android Development Masterclass",
+      "instructor": "Denis Panjuta",
+      "avatar": "https://i.pravatar.cc/150?img=59",
+      "rating": 4.3,
+      "price": "$130",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Cloud Native & DevOps with Kubernetes",
+      "instructor": "Mumshad Mannambeth",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "rating": 4.5,
+      "price": "$165",
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "AWS Certified Developer - Associate Certification",
+      "instructor": "Stephane Maarek",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "rating": 4.6,
+      "price": "$170",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium",
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "PHP & MySQL - Complete Backend Course",
+      "instructor": "Edwin Diaz",
+      "avatar": "https://i.pravatar.cc/150?img=61",
+      "rating": 4.2,
+      "price": "$115",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "UX Research: Design Thinking & User Research",
+      "instructor": "David Travis",
+      "avatar": "https://i.pravatar.cc/150?img=62",
+      "rating": 4.4,
+      "price": "$105",
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Java Programming: Complete Beginner to Advanced",
+      "instructor": "John Purcell",
+      "avatar": "https://i.pravatar.cc/150?img=63",
+      "rating": 4.3,
+      "price": "$145",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Salesforce Platform Developer I Certification",
+      "instructor": "Francisco Rios",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "rating": 4.1,
+      "price": "$130",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Project Management: Professional Certification Prep",
+      "instructor": "Joseph Phillips",
+      "avatar": "https://i.pravatar.cc/150?img=64",
+      "rating": 4.5,
+      "price": "$155",
+      "image": "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller",
+        "Hot"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Ruby on Rails - Complete Course",
+      "instructor": "Jordan Hudgens",
+      "avatar": "https://i.pravatar.cc/150?img=65",
+      "rating": 4.2,
+      "price": "$120",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Google Cloud Associate Engineer Certification",
+      "instructor": "Google Cloud",
+      "avatar": "https://i.pravatar.cc/150?img=42",
+      "rating": 4.3,
+      "price": "$150",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Social Media Marketing: Complete Strategy Guide",
+      "instructor": "Sorin Constantin",
+      "avatar": "https://i.pravatar.cc/150?img=34",
+      "rating": 4,
+      "price": "$95",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=280&fit=crop",
+      "badges": []
+    },
+    {
+      "id": 69,
+      "title": "SwiftUI - iOS 17 App Development",
+      "instructor": "Robert Petras",
+      "avatar": "https://i.pravatar.cc/150?img=66",
+      "rating": 4.4,
+      "price": "$135",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop",
+      "badges": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "REST APIs with Flask and Python",
+      "instructor": "Jose Portilla",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "rating": 4.3,
+      "price": "$90",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop",
+      "badges": [
+        "Premium"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Product Designer",
+      "company": "Figma",
+      "companyColor": "#F24E1E",
+      "companyInitial": "F",
+      "type": "Full time",
+      "pay": "$20/hours",
+      "experience": "2-4 years",
+      "posted": "1 day ago",
+      "location": "San Francisco, CA",
+      "mode": "Hybrid",
+      "description": "Conduct user research and analysis to identify pain points and opportunities for improving the product experience.",
+      "responsibilities": [
+        "Translate concepts into user flows, wireframes, mockups and prototypes that lead to intuitive user experiences.",
+        "Facilitate the client's product vision by researching, conceiving, sketching, prototyping and user-testing experiences for digital products.",
+        "Design and deliver wireframes, user stories, user journeys, and mockups optimized for a wide range of devices and interfaces.",
+        "Identify design problems and devise elegant solutions."
+      ],
+      "requirements": [
+        "Three or more years of UX design experience. Preference will be given to candidates who have experience designing complex solutions for complete digital environments.",
+        "Expertise in standard UX software such as Figma, Sketch, Framer, and the like is a must.",
+        "Ability to work with clients to understand detailed requirements and design complete user experiences that meet client needs and vision.",
+        "A solid grasp of user-centered design (UCD), planning and conducting user research, user testing, A/B testing, rapid prototyping, heuristic analysis, usability and accessibility concerns."
+      ],
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#EF4444"
+        },
+        {
+          "label": "Visual Design",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "UI/UX Design",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Back End Developer",
+      "company": "Spotify",
+      "companyColor": "#1DB954",
+      "companyInitial": "S",
+      "type": "Part time",
+      "pay": "$80/hours",
+      "experience": "4 years",
+      "posted": "5 days ago",
+      "location": "Stockholm, Sweden",
+      "mode": "Remote",
+      "description": "Build scalable APIs and microservices for music streaming platform.",
+      "responsibilities": [
+        "Design, develop, and deploy scalable backend services.",
+        "Collaborate with cross-functional teams to define, design, and ship new features.",
+        "Optimize services for performance and scalability.",
+        "Maintain high standards of code quality and unit test coverage."
+      ],
+      "requirements": [
+        "Strong experience with Node.js, Go, or Java.",
+        "Deep understanding of microservices architecture and API design.",
+        "Experience with SQL and NoSQL databases.",
+        "Familiarity with cloud platforms (AWS, GCP, or Azure)."
+      ],
+      "tags": [
+        {
+          "label": "Software Engineer",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Server Side",
+          "color": "#EF4444"
+        },
+        {
+          "label": "Programming",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Database",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Front End Developer",
+      "company": "Netflix",
+      "companyColor": "#E50914",
+      "companyInitial": "N",
+      "type": "Full time",
+      "pay": "$20/hours",
+      "experience": "2-4 years",
+      "posted": "1 day ago",
+      "location": "Los Gatos, CA",
+      "mode": "On-site",
+      "description": "Build responsive and engaging user interfaces for streaming platform.",
+      "tags": [
+        {
+          "label": "Web Development",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Development",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Programming",
+          "color": "#EF4444"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Product Designer",
+      "company": "Adobe",
+      "companyColor": "#FF0000",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$20/hours",
+      "experience": "2-4 years",
+      "posted": "1 day ago",
+      "location": "San Jose, CA",
+      "mode": "Hybrid",
+      "description": "Design intuitive user experiences for creative professionals.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#EF4444"
+        },
+        {
+          "label": "Visual Design",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "UI/UX Design",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Back End Developer",
+      "company": "Microsoft",
+      "companyColor": "#00A4EF",
+      "companyInitial": "M",
+      "type": "Part time",
+      "pay": "$80/hours",
+      "experience": "4 years",
+      "posted": "5 days ago",
+      "description": "Develop cloud-based backend services on Azure platform.",
+      "tags": [
+        {
+          "label": "Software Engineer",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Server Side",
+          "color": "#EF4444"
+        },
+        {
+          "label": "Programming",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Database",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Front End Developer",
+      "company": "Google",
+      "companyColor": "#4285F4",
+      "companyInitial": "G",
+      "type": "Full time",
+      "pay": "$20/hours",
+      "experience": "2-4 years",
+      "posted": "1 day ago",
+      "description": "Build modern web interfaces using React and TypeScript.",
+      "tags": [
+        {
+          "label": "Web Development",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Development",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Programming",
+          "color": "#EF4444"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Developer",
+      "company": "Amazon",
+      "companyColor": "#FF9900",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$95/hours",
+      "experience": "3-5 years",
+      "posted": "2 days ago",
+      "description": "Build end-to-end features for e-commerce platform using Node.js and React.",
+      "tags": [
+        {
+          "label": "Full Stack",
+          "color": "#2563EB"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#EF4444"
+        },
+        {
+          "label": "React",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Node.js",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Data Scientist",
+      "company": "Tesla",
+      "companyColor": "#CC0000",
+      "companyInitial": "T",
+      "type": "Contract",
+      "pay": "$150/hours",
+      "experience": "5+ years",
+      "posted": "3 days ago",
+      "description": "Apply machine learning to autonomous driving data and optimization.",
+      "tags": [
+        {
+          "label": "Data Science",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Machine Learning",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Python",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "TensorFlow",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mobile Developer (iOS)",
+      "company": "Apple",
+      "companyColor": "#555555",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$110/hours",
+      "experience": "4-6 years",
+      "posted": "1 week ago",
+      "description": "Develop native iOS applications using Swift and UIKit frameworks.",
+      "tags": [
+        {
+          "label": "iOS",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Swift",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Mobile",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Xcode",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "DevOps Engineer",
+      "company": "Netflix",
+      "companyColor": "#E50914",
+      "companyInitial": "N",
+      "type": "Full time",
+      "pay": "$120/hours",
+      "experience": "4-6 years",
+      "posted": "4 days ago",
+      "description": "Automate CI/CD pipelines and manage Kubernetes infrastructure.",
+      "tags": [
+        {
+          "label": "DevOps",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Kubernetes",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Docker",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "AWS",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "UX Researcher",
+      "company": "Airbnb",
+      "companyColor": "#FF5A5F",
+      "companyInitial": "A",
+      "type": "Part time",
+      "pay": "$75/hours",
+      "experience": "3-5 years",
+      "posted": "6 days ago",
+      "description": "Lead user research studies to inform product design decisions.",
+      "tags": [
+        {
+          "label": "UX Research",
+          "color": "#2563EB"
+        },
+        {
+          "label": "User Testing",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Qualitative",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Analytics",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Product Manager",
+      "company": "Stripe",
+      "companyColor": "#635BFF",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$130/hours",
+      "experience": "5-7 years",
+      "posted": "2 days ago",
+      "description": "Own product roadmap and work with engineering to deliver fintech solutions.",
+      "tags": [
+        {
+          "label": "Product Management",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Strategy",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Agile",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Analytics",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Backend Developer",
+      "company": "Uber",
+      "companyColor": "#000000",
+      "companyInitial": "U",
+      "type": "Full time",
+      "pay": "$105/hours",
+      "experience": "3-5 years",
+      "posted": "1 week ago",
+      "description": "Build scalable backend systems for ride-sharing and delivery platforms.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Go",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Microservices",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "PostgreSQL",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Frontend Developer",
+      "company": "Meta",
+      "companyColor": "#0668E1",
+      "companyInitial": "M",
+      "type": "Contract",
+      "pay": "$85/hours",
+      "experience": "2-4 years",
+      "posted": "3 days ago",
+      "description": "Develop React components for social media platform features.",
+      "tags": [
+        {
+          "label": "React",
+          "color": "#2563EB"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "CSS",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Redux",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Data Analyst",
+      "company": "Spotify",
+      "companyColor": "#1DB954",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$70/hours",
+      "experience": "2-4 years",
+      "posted": "5 days ago",
+      "description": "Analyze user behavior data and create actionable insights for product teams.",
+      "tags": [
+        {
+          "label": "SQL",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Python",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Tableau",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Analytics",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Cloud Engineer",
+      "company": "AWS",
+      "companyColor": "#FF9900",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$125/hours",
+      "experience": "4-6 years",
+      "posted": "2 days ago",
+      "description": "Design and implement cloud infrastructure solutions on AWS.",
+      "tags": [
+        {
+          "label": "AWS",
+          "color": "#2563EB"
+        },
+        {
+          "label": "CloudFormation",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Terraform",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "DevOps",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "UI/UX Designer",
+      "company": "Figma",
+      "companyColor": "#F24E1E",
+      "companyInitial": "F",
+      "type": "Full time",
+      "pay": "$90/hours",
+      "experience": "3-5 years",
+      "posted": "1 day ago",
+      "description": "Create beautiful and functional user interfaces for design tools.",
+      "tags": [
+        {
+          "label": "UI Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Figma",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Prototyping",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "companyColor": "#10A37F",
+      "companyInitial": "O",
+      "type": "Full time",
+      "pay": "$160/hours",
+      "experience": "5+ years",
+      "posted": "1 week ago",
+      "description": "Build and deploy machine learning models for AI applications.",
+      "tags": [
+        {
+          "label": "ML",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Python",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "PyTorch",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "NLP",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Product Designer",
+      "company": "Airbnb",
+      "companyColor": "#FF5A5F",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$95/hours",
+      "experience": "3-5 years",
+      "posted": "4 days ago",
+      "description": "Design end-to-end user experiences for travel and hospitality.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Design Systems",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "User Research",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Figma",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Full Stack Developer",
+      "company": "Shopify",
+      "companyColor": "#95BF47",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$100/hours",
+      "experience": "3-5 years",
+      "posted": "2 days ago",
+      "description": "Build e-commerce solutions and merchant tools using React and Ruby.",
+      "tags": [
+        {
+          "label": "Full Stack",
+          "color": "#2563EB"
+        },
+        {
+          "label": "React",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Ruby",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Shopify API",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Backend Developer",
+      "company": "Stripe",
+      "companyColor": "#635BFF",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$115/hours",
+      "experience": "4-6 years",
+      "posted": "3 days ago",
+      "description": "Build secure payment processing APIs and financial infrastructure.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Python",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "API Design",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Security",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "React Native Developer",
+      "company": "Discord",
+      "companyColor": "#5865F2",
+      "companyInitial": "D",
+      "type": "Contract",
+      "pay": "$90/hours",
+      "experience": "3-5 years",
+      "posted": "1 week ago",
+      "description": "Develop cross-platform mobile apps using React Native.",
+      "tags": [
+        {
+          "label": "Mobile",
+          "color": "#2563EB"
+        },
+        {
+          "label": "React Native",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "iOS/Android",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Data Engineer",
+      "company": "Snowflake",
+      "companyColor": "#00B0F0",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$110/hours",
+      "experience": "4-6 years",
+      "posted": "4 days ago",
+      "description": "Build data pipelines and warehouse solutions for enterprise analytics.",
+      "tags": [
+        {
+          "label": "Data Engineering",
+          "color": "#2563EB"
+        },
+        {
+          "label": "ETL",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "SQL",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Python",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Technical Writer",
+      "company": "GitHub",
+      "companyColor": "#4078C0",
+      "companyInitial": "G",
+      "type": "Part time",
+      "pay": "$55/hours",
+      "experience": "2-4 years",
+      "posted": "6 days ago",
+      "description": "Create comprehensive documentation for developer tools and APIs.",
+      "tags": [
+        {
+          "label": "Writing",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Documentation",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "APIs",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Markdown",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Cybersecurity Analyst",
+      "company": "CrowdStrike",
+      "companyColor": "#064D61",
+      "companyInitial": "C",
+      "type": "Full time",
+      "pay": "$105/hours",
+      "experience": "3-5 years",
+      "posted": "2 days ago",
+      "description": "Monitor and respond to security incidents and threats.",
+      "tags": [
+        {
+          "label": "Security",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Incident Response",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "SIEM",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Threat Intel",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Product Designer",
+      "company": "Microsoft",
+      "companyColor": "#00A4EF",
+      "companyInitial": "M",
+      "type": "Full time",
+      "pay": "$92/hours",
+      "experience": "3-5 years",
+      "posted": "5 days ago",
+      "description": "Design experiences for Microsoft 365 and Azure products.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UI/UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Design Systems",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Figma",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Frontend Developer",
+      "company": "Vercel",
+      "companyColor": "#000000",
+      "companyInitial": "V",
+      "type": "Full time",
+      "pay": "$105/hours",
+      "experience": "3-5 years",
+      "posted": "1 day ago",
+      "description": "Build next-generation web experiences using Next.js and React.",
+      "tags": [
+        {
+          "label": "React",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Next.js",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "TypeScript",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Web Performance",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Backend Developer",
+      "company": "DigitalOcean",
+      "companyColor": "#0080FF",
+      "companyInitial": "D",
+      "type": "Full time",
+      "pay": "$88/hours",
+      "experience": "2-4 years",
+      "posted": "3 days ago",
+      "description": "Build cloud infrastructure APIs and developer tools.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Go",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "API",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Cloud",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "iOS Developer",
+      "company": "Robinhood",
+      "companyColor": "#212121",
+      "companyInitial": "R",
+      "type": "Full time",
+      "pay": "$115/hours",
+      "experience": "4-6 years",
+      "posted": "1 week ago",
+      "description": "Build fintech mobile applications using Swift and iOS frameworks.",
+      "tags": [
+        {
+          "label": "iOS",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Swift",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Mobile",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Finance",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "DevOps Engineer",
+      "company": "Hashicorp",
+      "companyColor": "#0D3D71",
+      "companyInitial": "H",
+      "type": "Full time",
+      "pay": "$120/hours",
+      "experience": "5+ years",
+      "posted": "4 days ago",
+      "description": "Implement infrastructure as code using Terraform and Vault.",
+      "tags": [
+        {
+          "label": "DevOps",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Terraform",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Vault",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Go",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Product Manager",
+      "company": "Notion",
+      "companyColor": "#000000",
+      "companyInitial": "N",
+      "type": "Full time",
+      "pay": "$125/hours",
+      "experience": "5-7 years",
+      "posted": "2 days ago",
+      "description": "Drive product strategy for collaboration and productivity platform.",
+      "tags": [
+        {
+          "label": "Product Management",
+          "color": "#2563EB"
+        },
+        {
+          "label": "B2B SaaS",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Strategy",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Analytics",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Data Analyst",
+      "company": "Airbnb",
+      "companyColor": "#FF5A5F",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$75/hours",
+      "experience": "2-4 years",
+      "posted": "5 days ago",
+      "description": "Analyze marketplace data to inform business decisions.",
+      "tags": [
+        {
+          "label": "SQL",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Python",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Looker",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "A/B Testing",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Android Developer",
+      "company": "Google",
+      "companyColor": "#4285F4",
+      "companyInitial": "G",
+      "type": "Full time",
+      "pay": "$100/hours",
+      "experience": "3-5 years",
+      "posted": "3 days ago",
+      "description": "Develop native Android applications using Kotlin and Jetpack.",
+      "tags": [
+        {
+          "label": "Android",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Kotlin",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Mobile",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Jetpack",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Frontend Developer",
+      "company": "Twilio",
+      "companyColor": "#F22F46",
+      "companyInitial": "T",
+      "type": "Full time",
+      "pay": "$98/hours",
+      "experience": "3-5 years",
+      "posted": "1 day ago",
+      "description": "Build real-time communication interfaces using React and JavaScript.",
+      "tags": [
+        {
+          "label": "React",
+          "color": "#2563EB"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "WebRTC",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "APIs",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Backend Developer",
+      "company": "MongoDB",
+      "companyColor": "#47A248",
+      "companyInitial": "M",
+      "type": "Full time",
+      "pay": "$102/hours",
+      "experience": "4-6 years",
+      "posted": "4 days ago",
+      "description": "Develop database features and tools for MongoDB platform.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Go",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Database",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "NoSQL",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "UI Designer",
+      "company": "Canva",
+      "companyColor": "#00C4CC",
+      "companyInitial": "C",
+      "type": "Full time",
+      "pay": "$85/hours",
+      "experience": "2-4 years",
+      "posted": "2 days ago",
+      "description": "Create beautiful and accessible UI components for design platform.",
+      "tags": [
+        {
+          "label": "UI Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Design Systems",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Accessibility",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Figma",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Product Designer",
+      "company": "Slack",
+      "companyColor": "#4A154B",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$98/hours",
+      "experience": "3-5 years",
+      "posted": "1 week ago",
+      "description": "Design collaboration features for enterprise messaging platform.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Design Systems",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Figma",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Data Scientist",
+      "company": "Netflix",
+      "companyColor": "#E50914",
+      "companyInitial": "N",
+      "type": "Full time",
+      "pay": "$145/hours",
+      "experience": "5+ years",
+      "posted": "3 days ago",
+      "description": "Apply ML algorithms to optimize content recommendations.",
+      "tags": [
+        {
+          "label": "Data Science",
+          "color": "#2563EB"
+        },
+        {
+          "label": "ML",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Python",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "A/B Testing",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Mobile Developer",
+      "company": "Spotify",
+      "companyColor": "#1DB954",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$95/hours",
+      "experience": "3-5 years",
+      "posted": "5 days ago",
+      "description": "Build music streaming features for iOS and Android.",
+      "tags": [
+        {
+          "label": "Mobile",
+          "color": "#2563EB"
+        },
+        {
+          "label": "React Native",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "iOS",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Android",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Security Engineer",
+      "company": "Okta",
+      "companyColor": "#0073E6",
+      "companyInitial": "O",
+      "type": "Full time",
+      "pay": "$115/hours",
+      "experience": "5+ years",
+      "posted": "1 week ago",
+      "description": "Implement identity and access management security solutions.",
+      "tags": [
+        {
+          "label": "Security",
+          "color": "#2563EB"
+        },
+        {
+          "label": "IAM",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Auth",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Cloud",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Product Designer",
+      "company": "Dropbox",
+      "companyColor": "#0061FF",
+      "companyInitial": "D",
+      "type": "Full time",
+      "pay": "$92/hours",
+      "experience": "3-5 years",
+      "posted": "4 days ago",
+      "description": "Design file sharing and collaboration features for productivity platform.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Design Systems",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Figma",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Full Stack Developer",
+      "company": "GitHub",
+      "companyColor": "#4078C0",
+      "companyInitial": "G",
+      "type": "Full time",
+      "pay": "$108/hours",
+      "experience": "4-6 years",
+      "posted": "2 days ago",
+      "description": "Build features for code collaboration and CI/CD platform.",
+      "tags": [
+        {
+          "label": "Full Stack",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Ruby",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "React",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "APIs",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Machine Learning Engineer",
+      "company": "Anthropic",
+      "companyColor": "#D97706",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$155/hours",
+      "experience": "5+ years",
+      "posted": "1 week ago",
+      "description": "Build reliable and safe AI systems for enterprise applications.",
+      "tags": [
+        {
+          "label": "ML Engineering",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Python",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "PyTorch",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "MLOps",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Backend Developer",
+      "company": "Twitter",
+      "companyColor": "#1DA1F2",
+      "companyInitial": "T",
+      "type": "Full time",
+      "pay": "$98/hours",
+      "experience": "3-5 years",
+      "posted": "3 days ago",
+      "description": "Scale real-time social media backend systems.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Scala",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Microservices",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Cassandra",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "UX Researcher",
+      "company": "Microsoft",
+      "companyColor": "#00A4EF",
+      "companyInitial": "M",
+      "type": "Part time",
+      "pay": "$80/hours",
+      "experience": "4-6 years",
+      "posted": "6 days ago",
+      "description": "Lead research initiatives for enterprise software products.",
+      "tags": [
+        {
+          "label": "UX Research",
+          "color": "#2563EB"
+        },
+        {
+          "label": "User Testing",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Qualitative",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Presentation",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Frontend Developer",
+      "company": "Instagram",
+      "companyColor": "#E4405F",
+      "companyInitial": "I",
+      "type": "Full time",
+      "pay": "$100/hours",
+      "experience": "3-5 years",
+      "posted": "2 days ago",
+      "description": "Build features for photo sharing and social platform.",
+      "tags": [
+        {
+          "label": "React",
+          "color": "#2563EB"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "iOS",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Android",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Data Analyst",
+      "company": "LinkedIn",
+      "companyColor": "#0077B5",
+      "companyInitial": "L",
+      "type": "Full time",
+      "pay": "$82/hours",
+      "experience": "2-4 years",
+      "posted": "5 days ago",
+      "description": "Analyze professional network data and generate insights.",
+      "tags": [
+        {
+          "label": "Analytics",
+          "color": "#2563EB"
+        },
+        {
+          "label": "SQL",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Python",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Tableau",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "DevOps Engineer",
+      "company": "GitLab",
+      "companyColor": "#FC6D26",
+      "companyInitial": "G",
+      "type": "Full time",
+      "pay": "$105/hours",
+      "experience": "4-6 years",
+      "posted": "1 day ago",
+      "description": "Manage CI/CD infrastructure and developer tooling.",
+      "tags": [
+        {
+          "label": "DevOps",
+          "color": "#2563EB"
+        },
+        {
+          "label": "CI/CD",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Kubernetes",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Ruby",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Technical Program Manager",
+      "company": "Salesforce",
+      "companyColor": "#00A1E0",
+      "companyInitial": "S",
+      "type": "Full time",
+      "pay": "$120/hours",
+      "experience": "5-7 years",
+      "posted": "4 days ago",
+      "description": "Manage technical programs and cross-functional initiatives.",
+      "tags": [
+        {
+          "label": "Program Management",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Agile",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Leadership",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Communication",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Backend Developer",
+      "company": "Oracle",
+      "companyColor": "#F80000",
+      "companyInitial": "O",
+      "type": "Full time",
+      "pay": "$90/hours",
+      "experience": "4-6 years",
+      "posted": "3 days ago",
+      "description": "Develop enterprise database and cloud backend services.",
+      "tags": [
+        {
+          "label": "Backend",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Java",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Database",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Cloud",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Frontend Developer",
+      "company": "Airbnb",
+      "companyColor": "#FF5A5F",
+      "companyInitial": "A",
+      "type": "Full time",
+      "pay": "$98/hours",
+      "experience": "3-5 years",
+      "posted": "2 days ago",
+      "description": "Build booking and experience pages for travel platform.",
+      "tags": [
+        {
+          "label": "React",
+          "color": "#2563EB"
+        },
+        {
+          "label": "JavaScript",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Web Performance",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "A/B Testing",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Product Designer",
+      "company": "Intuit",
+      "companyColor": "#222E66",
+      "companyInitial": "I",
+      "type": "Full time",
+      "pay": "$88/hours",
+      "experience": "3-5 years",
+      "posted": "5 days ago",
+      "description": "Design financial management tools for small businesses and consumers.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Fintech",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Accessibility",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Data Engineer",
+      "company": "Databricks",
+      "companyColor": "#FF3629",
+      "companyInitial": "D",
+      "type": "Full time",
+      "pay": "$118/hours",
+      "experience": "4-6 years",
+      "posted": "1 week ago",
+      "description": "Build large-scale data processing pipelines using Spark.",
+      "tags": [
+        {
+          "label": "Data Engineering",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Spark",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Python",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Azure",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Mobile Developer (Android)",
+      "company": "Pinterest",
+      "companyColor": "#E60023",
+      "companyInitial": "P",
+      "type": "Full time",
+      "pay": "$95/hours",
+      "experience": "3-5 years",
+      "posted": "4 days ago",
+      "description": "Develop visual discovery features for Pinterest Android app.",
+      "tags": [
+        {
+          "label": "Android",
+          "color": "#2563EB"
+        },
+        {
+          "label": "Kotlin",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Mobile",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Jetpack",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Cloud Architect",
+      "company": "IBM",
+      "companyColor": "#054ADA",
+      "companyInitial": "I",
+      "type": "Full time",
+      "pay": "$140/hours",
+      "experience": "7+ years",
+      "posted": "1 week ago",
+      "description": "Design enterprise cloud solutions and migration strategies.",
+      "tags": [
+        {
+          "label": "Cloud Architecture",
+          "color": "#2563EB"
+        },
+        {
+          "label": "AWS",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Azure",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "GCP",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Product Designer",
+      "company": "Zoom",
+      "companyColor": "#2D8CFF",
+      "companyInitial": "Z",
+      "type": "Full time",
+      "pay": "$90/hours",
+      "experience": "3-5 years",
+      "posted": "3 days ago",
+      "description": "Design video conferencing and collaboration experiences.",
+      "tags": [
+        {
+          "label": "Product Design",
+          "color": "#2563EB"
+        },
+        {
+          "label": "UX",
+          "color": "#8B5CF6"
+        },
+        {
+          "label": "Video",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "Real-time",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "id": 1,
+      "title": "Advanced CSS Certification",
+      "issuer": "Meta",
+      "issuerColor": "#0081FB",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 18, 2026",
+      "hours": "40 hours",
+      "status": "verified",
+      "skills": [
+        "CSS",
+        "Responsive Design",
+        "Flexbox"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Data Structures",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Apr 20, 2026",
+      "hours": "60 hours",
+      "status": "pending",
+      "skills": [
+        "JavaScript",
+        "Algorithms",
+        "Data Structures"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Design Fundamentals",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 10, 2026",
+      "hours": "30 hours",
+      "status": "verified",
+      "skills": [
+        "UI Design",
+        "UX Research",
+        "Figma"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "React & Redux Masterclass",
+      "issuer": "Udemy",
+      "issuerColor": "#A435F0",
+      "issuerInitial": "U",
+      "submittedDate": "Apr 15, 2026",
+      "hours": "52 hours",
+      "status": "rejected",
+      "skills": [
+        "React",
+        "Redux",
+        "Hooks"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Python for Data Science",
+      "issuer": "IBM",
+      "issuerColor": "#054ADA",
+      "issuerInitial": "I",
+      "submittedDate": "Mar 28, 2026",
+      "hours": "45 hours",
+      "status": "pending",
+      "skills": [
+        "Python",
+        "Pandas",
+        "NumPy"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Agile Project Management",
+      "issuer": "Atlassian",
+      "issuerColor": "#0052CC",
+      "issuerInitial": "A",
+      "submittedDate": "Mar 12, 2026",
+      "hours": "20 hours",
+      "status": "verified",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Jira"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "AWS Certified Developer - Associate",
+      "issuer": "AWS",
+      "issuerColor": "#FF9900",
+      "issuerInitial": "A",
+      "submittedDate": "Apr 5, 2026",
+      "hours": "80 hours",
+      "status": "verified",
+      "skills": [
+        "AWS",
+        "Lambda",
+        "API Gateway"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Node.js Backend Development",
+      "issuer": "edX",
+      "issuerColor": "#D90123",
+      "issuerInitial": "E",
+      "submittedDate": "Apr 12, 2026",
+      "hours": "65 hours",
+      "status": "pending",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Digital Marketing Specialization",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 30, 2026",
+      "hours": "120 hours",
+      "status": "verified",
+      "skills": [
+        "SEO",
+        "Social Media",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Cybersecurity Fundamentals",
+      "issuer": "CompTIA",
+      "issuerColor": "#FF0000",
+      "issuerInitial": "C",
+      "submittedDate": "Apr 8, 2026",
+      "hours": "50 hours",
+      "status": "verified",
+      "skills": [
+        "Security",
+        "Network",
+        "Ethical Hacking"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Product Management Certification",
+      "issuer": "Product School",
+      "issuerColor": "#009CDF",
+      "issuerInitial": "P",
+      "submittedDate": "Mar 22, 2026",
+      "hours": "40 hours",
+      "status": "pending",
+      "skills": [
+        "Product Strategy",
+        "Roadmaps",
+        "User Stories"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Docker & Kubernetes Bootcamp",
+      "issuer": "Pluralsight",
+      "issuerColor": "#0075E2",
+      "issuerInitial": "P",
+      "submittedDate": "Apr 1, 2026",
+      "hours": "35 hours",
+      "status": "verified",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "Containerization"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Graphic Design Masterclass",
+      "issuer": "Adobe",
+      "issuerColor": "#FF0000",
+      "issuerInitial": "A",
+      "submittedDate": "Mar 18, 2026",
+      "hours": "75 hours",
+      "status": "rejected",
+      "skills": [
+        "Photoshop",
+        "Illustrator",
+        "InDesign"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Data Visualization with Tableau",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Apr 14, 2026",
+      "hours": "55 hours",
+      "status": "verified",
+      "skills": [
+        "Tableau",
+        "Data Viz",
+        "Dashboards"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Google Analytics 4 Certification",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 6, 2026",
+      "hours": "25 hours",
+      "status": "verified",
+      "skills": [
+        "GA4",
+        "Analytics",
+        "Web Metrics"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "React Native Mobile Development",
+      "issuer": "Udacity",
+      "issuerColor": "#2D8CFF",
+      "issuerInitial": "U",
+      "submittedDate": "Mar 25, 2026",
+      "hours": "90 hours",
+      "status": "pending",
+      "skills": [
+        "React Native",
+        "iOS",
+        "Android"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Business Intelligence Analyst",
+      "issuer": "Microsoft",
+      "issuerColor": "#00A4EF",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 3, 2026",
+      "hours": "70 hours",
+      "status": "verified",
+      "skills": [
+        "Power BI",
+        "SQL",
+        "DAX"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Technical Writing Fundamentals",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Mar 15, 2026",
+      "hours": "30 hours",
+      "status": "pending",
+      "skills": [
+        "Documentation",
+        "Markdown",
+        "APIs"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Embedded Systems with C/C++",
+      "issuer": "edX",
+      "issuerColor": "#D90123",
+      "issuerInitial": "E",
+      "submittedDate": "Apr 9, 2026",
+      "hours": "85 hours",
+      "status": "verified",
+      "skills": [
+        "C",
+        "C++",
+        "Microcontrollers"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Finance for Non-Financial Professionals",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 20, 2026",
+      "hours": "45 hours",
+      "status": "verified",
+      "skills": [
+        "Finance",
+        "Accounting",
+        "Budgeting"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Google UX Design Professional Certificate",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 17, 2026",
+      "hours": "180 hours",
+      "status": "pending",
+      "skills": [
+        "UX Research",
+        "Wireframing",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Salesforce Administrator Certification",
+      "issuer": "Salesforce",
+      "issuerColor": "#00A1E0",
+      "issuerInitial": "S",
+      "submittedDate": "Mar 14, 2026",
+      "hours": "65 hours",
+      "status": "verified",
+      "skills": [
+        "Salesforce",
+        "CRM",
+        "Administration"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Machine Learning Engineering for Production",
+      "issuer": "MLOps Community",
+      "issuerColor": "#FF6B35",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 11, 2026",
+      "hours": "95 hours",
+      "status": "pending",
+      "skills": [
+        "MLOps",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Leadership & Team Management",
+      "issuer": "LinkedIn Learning",
+      "issuerColor": "#0077B5",
+      "issuerInitial": "L",
+      "submittedDate": "Mar 8, 2026",
+      "hours": "28 hours",
+      "status": "verified",
+      "skills": [
+        "Leadership",
+        "Communication",
+        "Team Building"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Backend Development with Go",
+      "issuer": "Udemy",
+      "issuerColor": "#A435F0",
+      "issuerInitial": "U",
+      "submittedDate": "Apr 7, 2026",
+      "hours": "45 hours",
+      "status": "rejected",
+      "skills": [
+        "Go",
+        "Gin",
+        "Microservices"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Frontend Performance Optimization",
+      "issuer": "web.dev",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "W",
+      "submittedDate": "Apr 4, 2026",
+      "hours": "15 hours",
+      "status": "verified",
+      "skills": [
+        "Web Performance",
+        "Lighthouse",
+        "Core Web Vitals"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "iOS App Development with Swift",
+      "issuer": "Stanford",
+      "issuerColor": "#8C1515",
+      "issuerInitial": "S",
+      "submittedDate": "Mar 29, 2026",
+      "hours": "110 hours",
+      "status": "pending",
+      "skills": [
+        "Swift",
+        "iOS",
+        "Xcode"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "API Design and Documentation",
+      "issuer": "Postman",
+      "issuerColor": "#FF6A37",
+      "issuerInitial": "P",
+      "submittedDate": "Apr 2, 2026",
+      "hours": "20 hours",
+      "status": "verified",
+      "skills": [
+        "OpenAPI",
+        "Postman",
+        "REST"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Mobile UI/UX Design",
+      "issuer": "Interaction Design Foundation",
+      "issuerColor": "#2D8CFF",
+      "issuerInitial": "I",
+      "submittedDate": "Mar 11, 2026",
+      "hours": "60 hours",
+      "status": "verified",
+      "skills": [
+        "Mobile UX",
+        "Design",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "DevOps on AWS",
+      "issuer": "AWS",
+      "issuerColor": "#FF9900",
+      "issuerInitial": "A",
+      "submittedDate": "Apr 13, 2026",
+      "hours": "75 hours",
+      "status": "verified",
+      "skills": [
+        "AWS",
+        "CI/CD",
+        "DevOps"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Database Administration with PostgreSQL",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 6, 2026",
+      "hours": "50 hours",
+      "status": "pending",
+      "skills": [
+        "PostgreSQL",
+        "SQL",
+        "Database Admin"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Frontend Testing with Jest & React Testing Library",
+      "issuer": "Test Automation University",
+      "issuerColor": "#00B0F0",
+      "issuerInitial": "T",
+      "submittedDate": "Apr 19, 2026",
+      "hours": "35 hours",
+      "status": "verified",
+      "skills": [
+        "Jest",
+        "RTL",
+        "Testing"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Technical Interview Preparation",
+      "issuer": "LeetCode",
+      "issuerColor": "#FF8A00",
+      "issuerInitial": "L",
+      "submittedDate": "Mar 26, 2026",
+      "hours": "100 hours",
+      "status": "verified",
+      "skills": [
+        "Algorithms",
+        "Data Structures",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Vue.js 3 Composition API",
+      "issuer": "Vue Mastery",
+      "issuerColor": "#41B883",
+      "issuerInitial": "V",
+      "submittedDate": "Mar 9, 2026",
+      "hours": "22 hours",
+      "status": "pending",
+      "skills": [
+        "Vue.js",
+        "Composition API",
+        "Reactivity"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "System Design for Interviews",
+      "issuer": "Educative",
+      "issuerColor": "#0A9E01",
+      "issuerInitial": "E",
+      "submittedDate": "Apr 16, 2026",
+      "hours": "55 hours",
+      "status": "verified",
+      "skills": [
+        "System Design",
+        "Scalability",
+        "Architecture"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Google Cloud Data Engineering",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Mar 4, 2026",
+      "hours": "88 hours",
+      "status": "verified",
+      "skills": [
+        "BigQuery",
+        "Dataflow",
+        "Pub/Sub"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Research Methods in HCI",
+      "issuer": "MIT",
+      "issuerColor": "#A31F34",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 21, 2026",
+      "hours": "72 hours",
+      "status": "pending",
+      "skills": [
+        "HCI",
+        "User Research",
+        "Usability"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Backend Testing with Postman",
+      "issuer": "Postman",
+      "issuerColor": "#FF6A37",
+      "issuerInitial": "P",
+      "submittedDate": "Mar 3, 2026",
+      "hours": "18 hours",
+      "status": "verified",
+      "skills": [
+        "API Testing",
+        "Newman",
+        "Automation"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Azure Administrator Certification",
+      "issuer": "Microsoft",
+      "issuerColor": "#00A4EF",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 22, 2026",
+      "hours": "68 hours",
+      "status": "verified",
+      "skills": [
+        "Azure",
+        "Virtual Machines",
+        "Networking"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Data Science Capstone Project",
+      "issuer": "HarvardX",
+      "issuerColor": "#A31F34",
+      "issuerInitial": "H",
+      "submittedDate": "Mar 19, 2026",
+      "hours": "120 hours",
+      "status": "pending",
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Statistics"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "UI Development with Tailwind CSS",
+      "issuer": "Tailwind CSS",
+      "issuerColor": "#06B6D4",
+      "issuerInitial": "T",
+      "submittedDate": "Apr 24, 2026",
+      "hours": "28 hours",
+      "status": "verified",
+      "skills": [
+        "Tailwind",
+        "CSS",
+        "Responsive Design"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "GraphQL API Development",
+      "issuer": "Apollo",
+      "issuerColor": "#6526B9",
+      "issuerInitial": "A",
+      "submittedDate": "Mar 13, 2026",
+      "hours": "42 hours",
+      "status": "rejected",
+      "skills": [
+        "GraphQL",
+        "Apollo",
+        "Schema"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "SEO & Content Strategy",
+      "issuer": "Semrush Academy",
+      "issuerColor": "#00B04D",
+      "issuerInitial": "S",
+      "submittedDate": "Apr 25, 2026",
+      "hours": "32 hours",
+      "status": "pending",
+      "skills": [
+        "SEO",
+        "Content",
+        "Keyword Research"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Kubernetes Security",
+      "issuer": "CNCF",
+      "issuerColor": "#1D4ED8",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 7, 2026",
+      "hours": "45 hours",
+      "status": "verified",
+      "skills": [
+        "K8s Security",
+        "RBAC",
+        "Network Policies"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Mobile App UX/UI Design",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Apr 23, 2026",
+      "hours": "58 hours",
+      "status": "verified",
+      "skills": [
+        "Mobile UX",
+        "Figma",
+        "Design Systems"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Real-Time Systems with WebSockets",
+      "issuer": "Frontend Masters",
+      "issuerColor": "#6B46C1",
+      "issuerInitial": "F",
+      "submittedDate": "Mar 17, 2026",
+      "hours": "26 hours",
+      "status": "pending",
+      "skills": [
+        "WebSockets",
+        "Socket.io",
+        "Real-time"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Git & Version Control Masterclass",
+      "issuer": "GitLab",
+      "issuerColor": "#FC6D26",
+      "issuerInitial": "G",
+      "submittedDate": "Mar 2, 2026",
+      "hours": "22 hours",
+      "status": "verified",
+      "skills": [
+        "Git",
+        "GitHub",
+        "GitLab"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Advanced JavaScript Patterns",
+      "issuer": "Pluralsight",
+      "issuerColor": "#0075E2",
+      "issuerInitial": "P",
+      "submittedDate": "Apr 26, 2026",
+      "hours": "48 hours",
+      "status": "pending",
+      "skills": [
+        "JavaScript",
+        "Design Patterns",
+        "Functional"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Cloud Migration Strategies",
+      "issuer": "Google Cloud",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Mar 16, 2026",
+      "hours": "62 hours",
+      "status": "verified",
+      "skills": [
+        "Cloud Migration",
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Web Accessibility (WCAG) Certification",
+      "issuer": "W3C",
+      "issuerColor": "#005A9C",
+      "issuerInitial": "W",
+      "submittedDate": "Apr 27, 2026",
+      "hours": "36 hours",
+      "status": "verified",
+      "skills": [
+        "Accessibility",
+        "WCAG",
+        "A11y"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "RESTful API Design",
+      "issuer": "Microsoft",
+      "issuerColor": "#00A4EF",
+      "issuerInitial": "M",
+      "submittedDate": "Mar 23, 2026",
+      "hours": "30 hours",
+      "status": "verified",
+      "skills": [
+        "REST",
+        "API Design",
+        "OpenAPI"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Android App Development with Kotlin",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 28, 2026",
+      "hours": "105 hours",
+      "status": "pending",
+      "skills": [
+        "Kotlin",
+        "Android",
+        "Jetpack"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Content Strategy for Web",
+      "issuer": "NN/g",
+      "issuerColor": "#E51F24",
+      "issuerInitial": "N",
+      "submittedDate": "Mar 5, 2026",
+      "hours": "25 hours",
+      "status": "rejected",
+      "skills": [
+        "Content Strategy",
+        "UX Writing",
+        "Information Architecture"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Shell Scripting & Bash",
+      "issuer": "Linux Foundation",
+      "issuerColor": "#00B32C",
+      "issuerInitial": "L",
+      "submittedDate": "Apr 29, 2026",
+      "hours": "28 hours",
+      "status": "verified",
+      "skills": [
+        "Bash",
+        "Shell",
+        "Linux"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Data Engineering with Apache Spark",
+      "issuer": "Databricks",
+      "issuerColor": "#FF3629",
+      "issuerInitial": "D",
+      "submittedDate": "Mar 21, 2026",
+      "hours": "88 hours",
+      "status": "pending",
+      "skills": [
+        "Spark",
+        "PySpark",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "GitHub Actions CI/CD",
+      "issuer": "GitHub",
+      "issuerColor": "#4078C0",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 30, 2026",
+      "hours": "24 hours",
+      "status": "verified",
+      "skills": [
+        "CI/CD",
+        "GitHub Actions",
+        "DevOps"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Career Development: Interview Skills",
+      "issuer": "LinkedIn Learning",
+      "issuerColor": "#0077B5",
+      "issuerInitial": "L",
+      "submittedDate": "Mar 1, 2026",
+      "hours": "12 hours",
+      "status": "verified",
+      "skills": [
+        "Interviews",
+        "Career",
+        "Communication"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Python Web Scraping",
+      "issuer": "Udemy",
+      "issuerColor": "#A435F0",
+      "issuerInitial": "U",
+      "submittedDate": "Apr 27, 2026",
+      "hours": "38 hours",
+      "status": "pending",
+      "skills": [
+        "Python",
+        "Scrapy",
+        "Beautiful Soup"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Cloud Native Architecture",
+      "issuer": "CNCF",
+      "issuerColor": "#1D4ED8",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 27, 2026",
+      "hours": "55 hours",
+      "status": "verified",
+      "skills": [
+        "Cloud Native",
+        "Microservices",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "TypeScript for React Developers",
+      "issuer": "TypeScript",
+      "issuerColor": "#007ACC",
+      "issuerInitial": "T",
+      "submittedDate": "Apr 28, 2026",
+      "hours": "32 hours",
+      "status": "verified",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Type Safety"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "HR & People Management",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 10, 2026",
+      "hours": "48 hours",
+      "status": "pending",
+      "skills": [
+        "HR",
+        "Management",
+        "People"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "iOS Architecture Patterns",
+      "issuer": "Ray Wenderlich",
+      "issuerColor": "#F5A623",
+      "issuerInitial": "R",
+      "submittedDate": "Apr 22, 2026",
+      "hours": "40 hours",
+      "status": "verified",
+      "skills": [
+        "iOS",
+        "MVVM",
+        "Architecture"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "SEO Analytics & Reporting",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Mar 24, 2026",
+      "hours": "22 hours",
+      "status": "verified",
+      "skills": [
+        "SEO",
+        "Analytics",
+        "Search Console"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Vue.js 3 + TypeScript",
+      "issuer": "Vue School",
+      "issuerColor": "#41B883",
+      "issuerInitial": "V",
+      "submittedDate": "Apr 21, 2026",
+      "hours": "34 hours",
+      "status": "rejected",
+      "skills": [
+        "Vue.js",
+        "TypeScript",
+        "Composition API"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Project Scheduling with MS Project",
+      "issuer": "Project Management Institute",
+      "issuerColor": "#007A3D",
+      "issuerInitial": "P",
+      "submittedDate": "Mar 31, 2026",
+      "hours": "26 hours",
+      "status": "verified",
+      "skills": [
+        "MS Project",
+        "Scheduling",
+        "Planning"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "NoSQL Database Design",
+      "issuer": "MongoDB University",
+      "issuerColor": "#47A248",
+      "issuerInitial": "M",
+      "submittedDate": "Apr 5, 2026",
+      "hours": "44 hours",
+      "status": "pending",
+      "skills": [
+        "MongoDB",
+        "NoSQL",
+        "Database Design"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Software Testing & QA",
+      "issuer": "Coursera",
+      "issuerColor": "#0056D2",
+      "issuerInitial": "C",
+      "submittedDate": "Mar 13, 2026",
+      "hours": "56 hours",
+      "status": "verified",
+      "skills": [
+        "QA",
+        "Testing",
+        "Automation"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Intro to AR/VR Development",
+      "issuer": "Unity",
+      "issuerColor": "#222222",
+      "issuerInitial": "U",
+      "submittedDate": "Apr 18, 2026",
+      "hours": "70 hours",
+      "status": "pending",
+      "skills": [
+        "Unity",
+        "AR/VR",
+        "C#"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Business Process Modeling",
+      "issuer": "IBM",
+      "issuerColor": "#054ADA",
+      "issuerInitial": "I",
+      "submittedDate": "Mar 9, 2026",
+      "hours": "38 hours",
+      "status": "verified",
+      "skills": [
+        "BPMN",
+        "Process Modeling",
+        "Workflow"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Flutter Mobile Development",
+      "issuer": "Google",
+      "issuerColor": "#4285F4",
+      "issuerInitial": "G",
+      "submittedDate": "Apr 19, 2026",
+      "hours": "78 hours",
+      "status": "pending",
+      "skills": [
+        "Flutter",
+        "Dart",
+        "Mobile"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "match": "78%",
+      "matchColor": "#10B981",
+      "description": "Build interactive user interfaces with React, JavaScript, and modern CSS frameworks.",
+      "skills": [
+        {
+          "name": "HTML/CSS",
+          "level": 90,
+          "verified": true
+        },
+        {
+          "name": "JavaScript",
+          "level": 75,
+          "verified": true
+        },
+        {
+          "name": "React",
+          "level": 40,
+          "verified": false
+        },
+        {
+          "name": "TypeScript",
+          "level": 20,
+          "verified": false
+        },
+        {
+          "name": "Testing",
+          "level": 60,
+          "verified": true
+        }
+      ],
+      "projects": 8,
+      "avgSalary": "$70k - $120k"
+    },
+    {
+      "id": 2,
+      "title": "Data Analyst",
+      "match": "45%",
+      "matchColor": "#F59E0B",
+      "description": "Turn data into actionable insights using SQL, Python, and visualization tools.",
+      "skills": [
+        {
+          "name": "SQL",
+          "level": 50,
+          "verified": true
+        },
+        {
+          "name": "Python",
+          "level": 30,
+          "verified": false
+        },
+        {
+          "name": "Excel",
+          "level": 80,
+          "verified": true
+        },
+        {
+          "name": "Tableau",
+          "level": 10,
+          "verified": false
+        },
+        {
+          "name": "Statistics",
+          "level": 40,
+          "verified": false
+        }
+      ],
+      "projects": 5,
+      "avgSalary": "$60k - $100k"
+    },
+    {
+      "id": 3,
+      "title": "Product Manager",
+      "match": "32%",
+      "matchColor": "#EF4444",
+      "description": "Lead cross-functional teams to define, build, and ship products users love.",
+      "skills": [
+        {
+          "name": "Agile/Scrum",
+          "level": 60,
+          "verified": true
+        },
+        {
+          "name": "Roadmapping",
+          "level": 20,
+          "verified": false
+        },
+        {
+          "name": "User Research",
+          "level": 45,
+          "verified": false
+        },
+        {
+          "name": "Analytics",
+          "level": 35,
+          "verified": false
+        },
+        {
+          "name": "Communication",
+          "level": 70,
+          "verified": true
+        }
+      ],
+      "projects": 3,
+      "avgSalary": "$80k - $140k"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Developer",
+      "match": "62%",
+      "matchColor": "#10B981",
+      "description": "Build complete web applications from frontend to backend, databases to deployment.",
+      "skills": [
+        {
+          "name": "HTML/CSS",
+          "level": 85,
+          "verified": true
+        },
+        {
+          "name": "JavaScript",
+          "level": 70,
+          "verified": true
+        },
+        {
+          "name": "React",
+          "level": 45,
+          "verified": false
+        },
+        {
+          "name": "Node.js",
+          "level": 35,
+          "verified": false
+        },
+        {
+          "name": "Database",
+          "level": 50,
+          "verified": true
+        }
+      ],
+      "projects": 12,
+      "avgSalary": "$80k - $130k"
+    },
+    {
+      "id": 5,
+      "title": "Backend Developer",
+      "match": "55%",
+      "matchColor": "#F59E0B",
+      "description": "Design and implement server-side applications, APIs, and data systems.",
+      "skills": [
+        {
+          "name": "Server Side",
+          "level": 50,
+          "verified": true
+        },
+        {
+          "name": "Database",
+          "level": 65,
+          "verified": true
+        },
+        {
+          "name": "API Design",
+          "level": 40,
+          "verified": false
+        },
+        {
+          "name": "Security",
+          "level": 35,
+          "verified": false
+        },
+        {
+          "name": "Cloud",
+          "level": 25,
+          "verified": false
+        }
+      ],
+      "projects": 10,
+      "avgSalary": "$75k - $125k"
+    },
+    {
+      "id": 6,
+      "title": "Data Scientist",
+      "match": "28%",
+      "matchColor": "#EF4444",
+      "description": "Extract insights from data using statistical analysis and machine learning.",
+      "skills": [
+        {
+          "name": "Python",
+          "level": 30,
+          "verified": true
+        },
+        {
+          "name": "Statistics",
+          "level": 25,
+          "verified": false
+        },
+        {
+          "name": "Machine Learning",
+          "level": 15,
+          "verified": false
+        },
+        {
+          "name": "SQL",
+          "level": 40,
+          "verified": true
+        },
+        {
+          "name": "Data Viz",
+          "level": 20,
+          "verified": false
+        }
+      ],
+      "projects": 4,
+      "avgSalary": "$90k - $150k"
+    },
+    {
+      "id": 7,
+      "title": "DevOps Engineer",
+      "match": "35%",
+      "matchColor": "#EF4444",
+      "description": "Automate and manage cloud infrastructure, CI/CD pipelines, and system reliability.",
+      "skills": [
+        {
+          "name": "Linux",
+          "level": 45,
+          "verified": true
+        },
+        {
+          "name": "Docker",
+          "level": 30,
+          "verified": false
+        },
+        {
+          "name": "Kubernetes",
+          "level": 15,
+          "verified": false
+        },
+        {
+          "name": "CI/CD",
+          "level": 25,
+          "verified": false
+        },
+        {
+          "name": "Cloud",
+          "level": 35,
+          "verified": true
+        }
+      ],
+      "projects": 6,
+      "avgSalary": "$85k - $140k"
+    },
+    {
+      "id": 8,
+      "title": "UX/UI Designer",
+      "match": "52%",
+      "matchColor": "#F59E0B",
+      "description": "Create intuitive and beautiful user experiences through research and design.",
+      "skills": [
+        {
+          "name": "UI Design",
+          "level": 70,
+          "verified": true
+        },
+        {
+          "name": "UX Research",
+          "level": 45,
+          "verified": false
+        },
+        {
+          "name": "Figma",
+          "level": 80,
+          "verified": true
+        },
+        {
+          "name": "Prototyping",
+          "level": 55,
+          "verified": false
+        },
+        {
+          "name": "Design Systems",
+          "level": 40,
+          "verified": false
+        }
+      ],
+      "projects": 7,
+      "avgSalary": "$65k - $110k"
+    },
+    {
+      "id": 9,
+      "title": "Mobile Developer",
+      "match": "42%",
+      "matchColor": "#EF4444",
+      "description": "Build native and cross-platform mobile applications for iOS and Android.",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "level": 65,
+          "verified": true
+        },
+        {
+          "name": "React Native",
+          "level": 30,
+          "verified": false
+        },
+        {
+          "name": "iOS/Android",
+          "level": 25,
+          "verified": false
+        },
+        {
+          "name": "Mobile UX",
+          "level": 40,
+          "verified": true
+        },
+        {
+          "name": "APIs",
+          "level": 50,
+          "verified": true
+        }
+      ],
+      "projects": 5,
+      "avgSalary": "$75k - $120k"
+    },
+    {
+      "id": 10,
+      "title": "Machine Learning Engineer",
+      "match": "18%",
+      "matchColor": "#EF4444",
+      "description": "Deploy machine learning models into production systems at scale.",
+      "skills": [
+        {
+          "name": "Python",
+          "level": 35,
+          "verified": true
+        },
+        {
+          "name": "ML Frameworks",
+          "level": 15,
+          "verified": false
+        },
+        {
+          "name": "Deep Learning",
+          "level": 10,
+          "verified": false
+        },
+        {
+          "name": "Cloud ML",
+          "level": 8,
+          "verified": false
+        },
+        {
+          "name": "Statistics",
+          "level": 25,
+          "verified": true
+        }
+      ],
+      "projects": 2,
+      "avgSalary": "$100k - $160k"
+    },
+    {
+      "id": 11,
+      "title": "Technical Writer",
+      "match": "65%",
+      "matchColor": "#10B981",
+      "description": "Create technical documentation, APIs, guides, and developer resources.",
+      "skills": [
+        {
+          "name": "Writing",
+          "level": 80,
+          "verified": true
+        },
+        {
+          "name": "Technical Docs",
+          "level": 70,
+          "verified": true
+        },
+        {
+          "name": "APIs",
+          "level": 45,
+          "verified": false
+        },
+        {
+          "name": "Markdown",
+          "level": 60,
+          "verified": true
+        },
+        {
+          "name": "Research",
+          "level": 55,
+          "verified": false
+        }
+      ],
+      "projects": 9,
+      "avgSalary": "$55k - $95k"
+    },
+    {
+      "id": 12,
+      "title": "Cybersecurity Analyst",
+      "match": "38%",
+      "matchColor": "#EF4444",
+      "description": "Protect systems and networks from security threats and vulnerabilities.",
+      "skills": [
+        {
+          "name": "Network Security",
+          "level": 30,
+          "verified": false
+        },
+        {
+          "name": "Ethical Hacking",
+          "level": 20,
+          "verified": false
+        },
+        {
+          "name": "Compliance",
+          "level": 40,
+          "verified": true
+        },
+        {
+          "name": "SIEM",
+          "level": 15,
+          "verified": false
+        },
+        {
+          "name": "Incident Response",
+          "level": 25,
+          "verified": false
+        }
+      ],
+      "projects": 4,
+      "avgSalary": "$70k - $115k"
+    },
+    {
+      "id": 13,
+      "title": "Product Designer",
+      "match": "68%",
+      "matchColor": "#10B981",
+      "description": "Design end-to-end product experiences that users love and businesses need.",
+      "skills": [
+        {
+          "name": "UI Design",
+          "level": 75,
+          "verified": true
+        },
+        {
+          "name": "UX Research",
+          "level": 60,
+          "verified": true
+        },
+        {
+          "name": "Figma",
+          "level": 85,
+          "verified": true
+        },
+        {
+          "name": "Wireframing",
+          "level": 70,
+          "verified": true
+        },
+        {
+          "name": "Design Systems",
+          "level": 50,
+          "verified": false
+        }
+      ],
+      "projects": 11,
+      "avgSalary": "$70k - $115k"
+    },
+    {
+      "id": 14,
+      "title": "Cloud Engineer",
+      "match": "42%",
+      "matchColor": "#F59E0B",
+      "description": "Design, build, and manage scalable cloud infrastructure and services.",
+      "skills": [
+        {
+          "name": "AWS/Azure/GCP",
+          "level": 35,
+          "verified": false
+        },
+        {
+          "name": "Terraform",
+          "level": 20,
+          "verified": false
+        },
+        {
+          "name": "Docker",
+          "level": 45,
+          "verified": true
+        },
+        {
+          "name": "Kubernetes",
+          "level": 25,
+          "verified": false
+        },
+        {
+          "name": "Linux",
+          "level": 50,
+          "verified": true
+        }
+      ],
+      "projects": 6,
+      "avgSalary": "$80k - $130k"
+    },
+    {
+      "id": 15,
+      "title": "Business Analyst",
+      "match": "58%",
+      "matchColor": "#F59E0B",
+      "description": "Bridge business needs with technical solutions through analysis and requirements.",
+      "skills": [
+        {
+          "name": "Requirements",
+          "level": 70,
+          "verified": true
+        },
+        {
+          "name": "Analysis",
+          "level": 65,
+          "verified": true
+        },
+        {
+          "name": "SQL",
+          "level": 55,
+          "verified": false
+        },
+        {
+          "name": "Documentation",
+          "level": 60,
+          "verified": true
+        },
+        {
+          "name": "Communication",
+          "level": 75,
+          "verified": true
+        }
+      ],
+      "projects": 8,
+      "avgSalary": "$60k - $100k"
+    },
+    {
+      "id": 16,
+      "title": "Site Reliability Engineer",
+      "match": "30%",
+      "matchColor": "#EF4444",
+      "description": "Ensure system reliability, scalability, and automation at scale.",
+      "skills": [
+        {
+          "name": "Linux",
+          "level": 50,
+          "verified": true
+        },
+        {
+          "name": "Monitoring",
+          "level": 25,
+          "verified": false
+        },
+        {
+          "name": "Automation",
+          "level": 30,
+          "verified": false
+        },
+        {
+          "name": "Kubernetes",
+          "level": 20,
+          "verified": false
+        },
+        {
+          "name": "Cloud",
+          "level": 35,
+          "verified": true
+        }
+      ],
+      "projects": 5,
+      "avgSalary": "$90k - $145k"
+    }
+  ],
+  "portfolioArtifacts": [
+    {
+      "id": 1,
+      "title": "Marketing Dashboard UI",
+      "project": "TechNova Inc",
+      "projectColor": "#10B981",
+      "type": "Project Deliverable",
+      "date": "Apr 2026",
+      "verified": true,
+      "skills": [
+        "React",
+        "Chart.js",
+        "CSS Grid"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Prototype",
+      "project": "ShopFlow",
+      "projectColor": "#8B5CF6",
+      "type": "Capstone Project",
+      "date": "Mar 2026",
+      "verified": true,
+      "skills": [
+        "Figma",
+        "User Research",
+        "Wireframing"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "REST API Documentation",
+      "project": "DevCore Labs",
+      "projectColor": "#2563EB",
+      "type": "Live Project",
+      "date": "Feb 2026",
+      "verified": false,
+      "skills": [
+        "Node.js",
+        "Express",
+        "Swagger"
+      ],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "Data Visualization Report",
+      "project": "Analytics Co",
+      "projectColor": "#F59E0B",
+      "type": "Certificate Project",
+      "date": "Jan 2026",
+      "verified": true,
+      "skills": [
+        "Python",
+        "Matplotlib",
+        "Pandas"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Redesign",
+      "project": "FoodBridge",
+      "projectColor": "#EF4444",
+      "type": "Project Deliverable",
+      "date": "Dec 2025",
+      "verified": true,
+      "skills": [
+        "UI/UX",
+        "Figma",
+        "Mobile Design"
+      ],
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 6,
+      "title": "Brand Identity System",
+      "project": "StartupXYZ",
+      "projectColor": "#06B6D4",
+      "type": "Case Study",
+      "date": "Nov 2025",
+      "verified": true,
+      "skills": [
+        "Branding",
+        "Illustrator",
+        "Visual Identity"
+      ],
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=280&fit=crop"
+    },
+    {
+      "id": 7,
+      "title": "Blog Platform Backend",
+      "project": "MediaCorp",
+      "projectColor": "#8B5CF6",
+      "type": "Live Project",
+      "date": "Oct 2025",
+      "verified": true,
+      "skills": [
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 8,
+      "title": "User Research Report",
+      "project": "Finova Bank",
+      "projectColor": "#2563EB",
+      "type": "Research Paper",
+      "date": "Sep 2025",
+      "verified": true,
+      "skills": [
+        "UX Research",
+        "Interviews",
+        "Analysis"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 9,
+      "title": "Dashboard Analytics",
+      "project": "HealthTrack",
+      "projectColor": "#10B981",
+      "type": "Capstone Project",
+      "date": "Aug 2025",
+      "verified": false,
+      "skills": [
+        "D3.js",
+        "React",
+        "Data Viz"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 10,
+      "title": "E-Learning Platform UI",
+      "project": "EduTech",
+      "projectColor": "#F59E0B",
+      "type": "Project Deliverable",
+      "date": "Jul 2025",
+      "verified": true,
+      "skills": [
+        "UI Design",
+        "Figma",
+        "Prototyping"
+      ],
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 11,
+      "title": "Hackathon Winner: Smart City App",
+      "project": "HackMIT 2025",
+      "projectColor": "#A435F0",
+      "type": "Hackathon Submission",
+      "date": "Jun 2025",
+      "verified": true,
+      "skills": [
+        "React Native",
+        "IoT",
+        "ML"
+      ],
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 12,
+      "title": "Marketing Campaign Website",
+      "project": "LaunchPad Agency",
+      "projectColor": "#EF4444",
+      "type": "Live Project",
+      "date": "May 2025",
+      "verified": true,
+      "skills": [
+        "HTML/CSS",
+        "JavaScript",
+        "GSAP"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 13,
+      "title": "Design System Documentation",
+      "project": "InHouse Studio",
+      "projectColor": "#00A4EF",
+      "type": "Case Study",
+      "date": "Apr 2025",
+      "verified": true,
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "Documentation"
+      ],
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 14,
+      "title": "CSV Data Analysis",
+      "project": "Open Data Initiative",
+      "projectColor": "#4078C0",
+      "type": "Certificate Project",
+      "date": "Mar 2025",
+      "verified": false,
+      "skills": [
+        "Python",
+        "Pandas",
+        "Jupyter"
+      ],
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 15,
+      "title": "Social Media Content Strategy",
+      "project": "Vibe Brands",
+      "projectColor": "#E4405F",
+      "type": "Live Project",
+      "date": "Feb 2025",
+      "verified": true,
+      "skills": [
+        "Social Media",
+        "Content Strategy",
+        "Analytics"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 16,
+      "title": "API Integration Project",
+      "project": "PaymentHub",
+      "projectColor": "#00A1E0",
+      "type": "Project Deliverable",
+      "date": "Jan 2025",
+      "verified": true,
+      "skills": [
+        "APIs",
+        "Stripe",
+        "Node.js"
+      ],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 17,
+      "title": "User Onboarding Flow",
+      "project": "TaskFlow",
+      "projectColor": "#8B5CF6",
+      "type": "Case Study",
+      "date": "Dec 2024",
+      "verified": true,
+      "skills": [
+        "UX Design",
+        "Figma",
+        "Prototyping"
+      ],
+      "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 18,
+      "title": "Blog CMS Development",
+      "project": "WordPress Theme",
+      "projectColor": "#21759B",
+      "type": "Live Project",
+      "date": "Nov 2024",
+      "verified": false,
+      "skills": [
+        "PHP",
+        "WordPress",
+        "MySQL"
+      ],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 19,
+      "title": "Accessibility Audit Report",
+      "project": "GovTech Solutions",
+      "projectColor": "#005A9C",
+      "type": "Research Paper",
+      "date": "Oct 2024",
+      "verified": true,
+      "skills": [
+        "Accessibility",
+        "WCAG",
+        "Testing"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 20,
+      "title": "Real-time Chat Application",
+      "project": "ConnectApp",
+      "projectColor": "#5865F2",
+      "type": "Project Deliverable",
+      "date": "Sep 2024",
+      "verified": true,
+      "skills": [
+        "WebSockets",
+        "Socket.io",
+        "React"
+      ],
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 21,
+      "title": "Performance Optimization Case Study",
+      "project": "SpeedStart",
+      "projectColor": "#FF6B35",
+      "type": "Case Study",
+      "date": "Aug 2024",
+      "verified": true,
+      "skills": [
+        "Web Performance",
+        "Lighthouse",
+        "Optimization"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+    },
+    {
+      "id": 22,
+      "title": "Security Penetration Test Report",
+      "project": "SecureNet",
+      "projectColor": "#064D61",
+      "type": "Research Paper",
+      "date": "Jul 2024",
+      "verified": true,
+      "skills": [
+        "Security",
+        "Penetration Testing",
+        "Vulnerabilities"
+      ],
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop"
+    }
+  ],
+  "dashboard": {
+    "stats": [
+      {
+        "label": "Readiness Score",
+        "value": 78,
+        "suffix": "%",
+        "icon": "fa-solid fa-bullseye",
+        "bg": "#EFF6FF",
+        "color": "#2563EB",
+        "progress": true
+      },
+      {
+        "label": "Verified Skills",
+        "value": 35,
+        "icon": "fa-solid fa-circle-check",
+        "bg": "#F0FDF4",
+        "color": "#16A34A"
+      },
+      {
+        "label": "Active Projects",
+        "value": 4,
+        "icon": "fa-solid fa-briefcase",
+        "bg": "#FEF3C7",
+        "color": "#D97706"
+      },
+      {
+        "label": "Employer Views",
+        "value": 812,
+        "icon": "fa-solid fa-eye",
+        "bg": "#EDE9FE",
+        "color": "#7C3AED"
+      }
+    ],
+    "recommendedActions": [
+      {
+        "title": "Missing Skill: React Hooks",
+        "description": "Required for 85% of target roles.",
+        "icon": "fa-brands fa-react",
+        "bg": "#FEF3C7",
+        "color": "#D97706",
+        "action": "Find Project",
+        "variant": "filled"
+      },
+      {
+        "title": "Submit Proof: UI/UX Basics",
+        "description": "You mentioned completion, upload cert.",
+        "icon": "fa-solid fa-file-certificate",
+        "bg": "#DBEAFE",
+        "color": "#2563EB",
+        "action": "Upload",
+        "variant": "outline"
+      },
+      {
+        "title": "Enroll: Advanced CSS Course",
+        "description": "Covers Flexbox, Grid, and animations.",
+        "icon": "fa-solid fa-graduation-cap",
+        "bg": "#F0FDF4",
+        "color": "#16A34A",
+        "action": "Enroll",
+        "variant": "filled"
+      },
+      {
+        "title": "Complete: TypeScript Course",
+        "description": "72% complete - finish this week!",
+        "icon": "fa-solid fa-code",
+        "bg": "#FEE2E2",
+        "color": "#DC2626",
+        "action": "Continue",
+        "variant": "filled"
+      },
+      {
+        "title": "Take: Docker Certification Exam",
+        "description": "Ready for certification - schedule now.",
+        "icon": "fa-solid fa-certificate",
+        "bg": "#FEF3C7",
+        "color": "#D97706",
+        "action": "Schedule",
+        "variant": "outline"
+      },
+      {
+        "title": "Learn: MongoDB Advanced Queries",
+        "description": "Needed for fullstack development path.",
+        "icon": "fa-solid fa-database",
+        "bg": "#DBEAFE",
+        "color": "#2563EB",
+        "action": "Start Learning",
+        "variant": "filled"
+      },
+      {
+        "title": "Join: React Community Project",
+        "description": "Open source collaboration opportunity.",
+        "icon": "fa-solid fa-users",
+        "bg": "#F0FDF4",
+        "color": "#16A34A",
+        "action": "Join",
+        "variant": "outline"
+      },
+      {
+        "title": "Verify: JavaScript Data Structures",
+        "description": "Pending review since Apr 20, 2026.",
+        "icon": "fa-solid fa-exclamation-circle",
+        "bg": "#FEE2E2",
+        "color": "#DC2626",
+        "action": "Follow Up",
+        "variant": "filled"
+      },
+      {
+        "title": "Upgrade: Portfolio to Premium",
+        "description": "Get featured to 500+ employers.",
+        "icon": "fa-solid fa-chart-line",
+        "bg": "#FEF3C7",
+        "color": "#D97706",
+        "action": "Upgrade",
+        "variant": "filled"
+      },
+      {
+        "title": "Explore: Backend Developer Pathway",
+        "description": "55% match - close to your current skills.",
+        "icon": "fa-solid fa-route",
+        "bg": "#EDE9FE",
+        "color": "#7C3AED",
+        "action": "Explore",
+        "variant": "outline"
+      }
+    ],
+    "creditRegistry": [
+      {
+        "title": "Advanced CSS Certification",
+        "issuer": "Meta",
+        "issuerColor": "#0081FB",
+        "issuerInitial": "M",
+        "time": "2 days ago",
+        "status": "verified",
+        "label": "Verified"
+      },
+      {
+        "title": "JavaScript Data Structures",
+        "issuer": "Coursera",
+        "issuerColor": "#0056D2",
+        "issuerInitial": "C",
+        "time": "Yesterday",
+        "status": "pending",
+        "label": "Pending"
+      },
+      {
+        "title": "UI/UX Design Fundamentals",
+        "issuer": "Google",
+        "issuerColor": "#4285F4",
+        "issuerInitial": "G",
+        "time": "1 week ago",
+        "status": "verified",
+        "label": "Verified"
+      },
+      {
+        "title": "AWS Developer Associate",
+        "issuer": "AWS",
+        "issuerColor": "#FF9900",
+        "issuerInitial": "A",
+        "time": "2 weeks ago",
+        "status": "verified",
+        "label": "Verified"
+      },
+      {
+        "title": "Power BI Data Analyst",
+        "issuer": "Microsoft",
+        "issuerColor": "#00A4EF",
+        "issuerInitial": "M",
+        "time": "3 weeks ago",
+        "status": "verified",
+        "label": "Verified"
+      }
+    ],
+    "activities": [
+      {
+        "type": "skill_added",
+        "text": "React Hooks skill verified",
+        "time": "2 hours ago"
+      },
+      {
+        "type": "project",
+        "text": "Completed milestone for TechNova project",
+        "time": "5 hours ago"
+      },
+      {
+        "type": "credit",
+        "text": "Advanced CSS Certification verified by Meta",
+        "time": "1 day ago"
+      },
+      {
+        "type": "project",
+        "text": "Applied to Frontend Developer role at Vercel",
+        "time": "2 days ago"
+      },
+      {
+        "type": "skill_added",
+        "text": "TypeScript skill added",
+        "time": "3 days ago"
+      },
+      {
+        "type": "project",
+        "text": "Milestone 2 completed for Marketing Dashboard",
+        "time": "4 days ago"
+      },
+      {
+        "type": "credit",
+        "text": "Python for Data Science credit pending review",
+        "time": "5 days ago"
+      },
+      {
+        "type": "skill_added",
+        "text": "Docker skill verified",
+        "time": "1 week ago"
+      },
+      {
+        "type": "project",
+        "text": "Project delivered: E-Commerce Prototype to ShopFlow",
+        "time": "1 week ago"
+      },
+      {
+        "type": "credit",
+        "text": "Google UX Design Certificate earned",
+        "time": "2 weeks ago"
+      },
+      {
+        "type": "project",
+        "text": "Started new project: Mobile App Redesign for FoodBridge",
+        "time": "2 weeks ago"
+      },
+      {
+        "type": "skill_added",
+        "text": "Kubernetes skill added",
+        "time": "3 weeks ago"
+      },
+      {
+        "type": "credit",
+        "text": "AWS Developer Certification verified",
+        "time": "3 weeks ago"
+      },
+      {
+        "type": "project",
+        "text": "Completed hackathon: Smart City App",
+        "time": "1 month ago"
+      },
+      {
+        "type": "skill_added",
+        "text": "GraphQL skill verified",
+        "time": "1 month ago"
+      }
+    ],
+    "deadlines": [
+      {
+        "title": "Marketing Dashboard - Milestone 2",
+        "due": "Due in 2 days",
+        "priority": "High"
+      },
+      {
+        "title": "Submit TypeScript Certification",
+        "due": "Due in 4 days",
+        "priority": "Medium"
+      },
+      {
+        "title": "UX Review - FoodBridge Project",
+        "due": "Due in 1 week",
+        "priority": "Medium"
+      },
+      {
+        "title": "React Performance Optimization Course",
+        "due": "Due in 10 days",
+        "priority": "Low"
+      },
+      {
+        "title": "Portfolio Update - Add 3 new projects",
+        "due": "Due in 2 weeks",
+        "priority": "Low"
+      }
+    ],
+    "activeProjects": [
+      {
+        "title": "Build a Marketing Dashboard",
+        "company": "TechNova Inc",
+        "companyColor": "#10B981",
+        "progress": 60,
+        "due": "Due in 3 days",
+        "milestone": "Milestone 2 of 3"
+      },
+      {
+        "title": "Website Redesign",
+        "company": "StartupXYZ",
+        "companyColor": "#06B6D4",
+        "progress": 35,
+        "due": "Due in 12 days",
+        "milestone": "Milestone 1 of 4"
+      },
+      {
+        "title": "Mobile App UI Kit",
+        "company": "DesignCo",
+        "companyColor": "#8B5CF6",
+        "progress": 80,
+        "due": "Due in 5 days",
+        "milestone": "Milestone 3 of 3"
+      },
+      {
+        "title": "API Documentation",
+        "company": "DevCore Labs",
+        "companyColor": "#2563EB",
+        "progress": 20,
+        "due": "Due in 18 days",
+        "milestone": "Starting soon"
+      }
+    ]
+  }
+}
