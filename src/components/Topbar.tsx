@@ -44,7 +44,7 @@ function Topbar() {
         <i className="fa-solid fa-search"></i>
         <input 
           type="text" 
-          placeholder="Search jobs, learning, proof..."
+          placeholder="Search task"
           value={search}
           onChange={(e) => {
             setSearch(e.target.value);
@@ -52,6 +52,7 @@ function Topbar() {
           }}
           onFocus={() => setShowResults(search.trim().length > 1)}
         />
+        <div className="search-shortcut">⌘ F</div>
         {showResults && results.length > 0 && (
           <div className="search-dropdown">
             {results.map((res, i) => (
@@ -77,12 +78,19 @@ function Topbar() {
         )}
       </div>
       <div className="slim-topbar-right">
+        <Link to="/applications" className="slim-icon-btn" title="Messages">
+          <i className="fa-regular fa-envelope"></i>
+        </Link>
         <Link to="/applications" className="slim-icon-btn" title="Application reminders" style={{ position: 'relative' }}>
           <i className="fa-regular fa-bell"></i>
           <span className="slim-notification-badge">{reminderCount || 0}</span>
         </Link>
-        <Link to="/settings" title="Profile settings">
+        <Link to="/settings" className="slim-profile-pill" title="Profile settings">
           <img src={profile.avatar || "https://i.pravatar.cc/150?img=12"} alt={profile.name} className="slim-topbar-avatar" />
+          <span>
+            <strong>{profile.name}</strong>
+            <small>{profile.email}</small>
+          </span>
         </Link>
       </div>
     </header>

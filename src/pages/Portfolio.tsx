@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { GlassmorphismPortfolioBlock } from '../components/ui/glassmorphism-portfolio-block-shadcnui';
 import { createProofSubmission, getStoredCredits } from '../data/creditsUtils';
 import { getPortfolioStats, getStoredPortfolio, saveStoredPortfolio } from '../data/portfolioUtils';
 import { getStoredProfile, getTargetRoleMeta, saveStoredProfile } from '../data/profileUtils';
@@ -227,6 +228,10 @@ function Portfolio() {
           </button>
         </div>
       </div>
+
+      <section className="portfolio-glass-showcase">
+        <GlassmorphismPortfolioBlock />
+      </section>
 
       <section className="portfolio-summary-bar portfolio-editor-summary">
         <div className="portfolio-avatar-area">

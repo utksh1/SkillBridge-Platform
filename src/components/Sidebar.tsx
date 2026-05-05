@@ -36,11 +36,11 @@ function Sidebar() {
   };
 
   const navItems = [
-    { to: '/', icon: 'fa-solid fa-border-all', label: 'Dashboard', badge: null },
-    { to: '/courses', icon: 'fa-solid fa-book-open', label: 'Learn', badge: 12 },
-    { to: '/portfolio', icon: 'fa-solid fa-award', label: 'Proof Portfolio', badge: 3 },
-    { to: '/jobs', icon: 'fa-solid fa-briefcase', label: 'Jobs', badge: counts.savedJobs || null },
-    { to: '/applications', icon: 'fa-solid fa-file-circle-check', label: 'Applications', badge: counts.applications || null },
+    { to: '/', icon: 'fa-solid fa-table-columns', label: 'Dashboard', badge: null },
+    { to: '/tasks', icon: 'fa-solid fa-list-check', label: 'Tasks', badge: 12 },
+    { to: '/calendar', icon: 'fa-solid fa-calendar-days', label: 'Calendar', badge: null },
+    { to: '/analytics', icon: 'fa-solid fa-chart-simple', label: 'Analytics', badge: null },
+    { to: '/team', icon: 'fa-solid fa-users', label: 'Team', badge: null },
   ];
 
   const isActivePath = (target) => {
@@ -51,9 +51,13 @@ function Sidebar() {
   return (
     <aside className="slim-sidebar">
       <div className="slim-sidebar-logo">
-        <i className="fa-solid fa-bridge"></i>
+        <div className="donezo-logo-icon">
+          <div className="inner-dot"></div>
+        </div>
+        <strong>Donezo</strong>
       </div>
-      
+
+      <span className="slim-sidebar-label">MENU</span>
       <nav className="slim-sidebar-nav">
         {navItems.map((item) => (
           <Link
@@ -63,6 +67,7 @@ function Sidebar() {
             title={item.label}
           >
             <i className={item.icon}></i>
+            <span className="slim-nav-label">{item.label}</span>
             {item.badge && (
               <span className="slim-nav-badge">{item.badge}</span>
             )}
@@ -71,12 +76,27 @@ function Sidebar() {
       </nav>
 
       <div className="slim-sidebar-bottom">
+        <span className="slim-sidebar-label">GENERAL</span>
         <Link to="/settings" className="slim-nav-item" title="Settings">
           <i className="fa-solid fa-gear"></i>
+          <span className="slim-nav-label">Settings</span>
+        </Link>
+        <Link to="/help" className="slim-nav-item" title="Help">
+          <i className="fa-solid fa-circle-question"></i>
+          <span className="slim-nav-label">Help</span>
         </Link>
         <button type="button" className="slim-nav-item" title="Logout" onClick={handleLogout}>
           <i className="fa-solid fa-right-from-bracket"></i>
+          <span className="slim-nav-label">Logout</span>
         </button>
+        <div className="slim-download-card">
+          <div className="app-icon-wrap">
+            <i className="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <strong>Download our Mobile App</strong>
+          <small>Get easy in another way</small>
+          <button type="button">Download</button>
+        </div>
       </div>
     </aside>
   );
